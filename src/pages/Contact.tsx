@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions or want to schedule a consultation? Reach out to our team at Leger Accounting, Corp.
+                Have questions or want to schedule a consultation? Reach out to our team at DCA LLC.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Office Location</h4>
-                        <p className="text-gray-600">6103 Baltimore Ave Suite 101, Riverdale, MD 20737-1966</p>
+                        <p className="text-gray-600">6100 Baltimore National Pike, Baltimore, MD 21228</p>
                       </div>
                     </div>
                     
@@ -48,9 +48,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Phone Numbers</h4>
-                        <p className="text-gray-600">Office: (301) 779-4955</p>
-                        <p className="text-gray-600">Mobile: (240) 286-3126</p>
-                        <p className="text-gray-600">Fax: (301) 779-4952</p>
+                        <p className="text-gray-600">Phone: (410) 788-0600</p>
+                        <p className="text-gray-600">Fax: (410) 788-0660</p>
                       </div>
                     </div>
                     
@@ -63,7 +62,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">glenda@LegerAccounting.com</p>
+                        <p className="text-gray-600">info@dcsllc.com</p>
                       </div>
                     </div>
                     

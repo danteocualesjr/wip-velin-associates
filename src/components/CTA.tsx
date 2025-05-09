@@ -21,7 +21,7 @@ const CTA = () => {
                 Ready for Professional <span className="gradient-text">Accounting Services?</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Contact Leger Accounting, Corp. today to discuss how we can assist with your business and personal financial needs. Our experienced team is ready to provide the professional services you deserve.
+                "Our firm is one of the leading firms in the area. By combining our expertise, experience, and the energy of our staff, each client receives close personal and professional attention."
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">

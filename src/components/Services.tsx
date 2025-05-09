@@ -35,7 +35,7 @@ const Services = () => {
         </svg>
       ),
       title: "Business Services",
-      description: "Full accounting, payroll, business startup assistance, tax preparation, and more for your business needs.",
+      description: "Small business accounting, payroll services, and other services for business owners and executives.",
       link: "/business-services"
     },
     {
@@ -44,8 +44,8 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Personal Services",
-      description: "Personal income tax preparation, tax planning, budget planning, and ITIN applications for individuals.",
+      title: "Tax Services",
+      description: "Tax preparation, tax planning, and other tax-related services for individuals and businesses.",
       link: "/personal-services"
     },
     {
@@ -54,9 +54,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       ),
-      title: "Other Services",
-      description: "Translations, notary public services, authorization letters, bill of sales, and application assistance.",
-      link: "/other-services"
+      title: "QuickBooks Services",
+      description: "QuickBooks setup, training, and support services for your business accounting needs.",
+      link: "/quickbooks-services"
     },
     {
       icon: (
@@ -64,9 +64,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Contact Us",
-      description: "Get in touch with our team to discuss how we can assist with your accounting and business needs.",
-      link: "/contact"
+      title: "Client Center",
+      description: "Access newsletters, a secure client portal, financial calculators, and useful internet links.",
+      link: "/client-center"
     },
   ];
 
@@ -78,7 +78,7 @@ const Services = () => {
             Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            We offer a wide range of accounting and business services tailored to meet your specific needs.
+            We offer a comprehensive suite of services tailored to meet the needs of individuals and businesses.
           </p>
         </div>
 

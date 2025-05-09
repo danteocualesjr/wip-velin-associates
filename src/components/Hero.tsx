@@ -16,10 +16,10 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">Leger Accounting</span>, Corp.
+            <span className="gradient-text">DCA LLC</span> Accounting
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            A growing company providing full consulting services to small and mid-sized businesses. We offer a range of services tailored to meet the needs of our clients.
+            A full-service accounting firm licensed in Maryland, offering a broad range of services for business owners, executives, and independent professionals.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="mt-12 flex items-center gap-6">
             <div className="glass px-4 py-3 rounded-lg">
               <p className="text-sm text-gray-600">Based in</p>
-              <p className="text-2xl font-bold">Riverdale</p>
+              <p className="text-2xl font-bold">Baltimore</p>
               <p className="text-sm text-gray-600">Maryland</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
