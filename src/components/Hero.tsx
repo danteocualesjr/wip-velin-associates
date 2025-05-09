@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -15,36 +16,36 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">Financial Clarity</span> for Your Future
+            <span className="gradient-text">Leger Accounting</span>, Corp.
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            Katz & Co. has been providing financial services to individuals for over forty years. Most of our clients are long-term, having repeatedly benefited from our help.
+            A growing company providing full consulting services to small and mid-sized businesses. We offer a range of services tailored to meet the needs of our clients.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-              Our Services
+              <Link to="/business-services">Our Services</Link>
             </Button>
             <Button variant="outline" className="border-accounting-700 text-accounting-700 hover:bg-accounting-50 px-8 py-6 text-lg">
-              About Us
+              <Link to="/contact">Contact Us</Link>
             </Button>
           </div>
           
           <div className="mt-12 flex items-center gap-6">
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Experience</p>
-              <p className="text-2xl font-bold">40+</p>
-              <p className="text-sm text-gray-600">Years</p>
-            </div>
-            <div className="glass px-4 py-3 rounded-lg">
               <p className="text-sm text-gray-600">Based in</p>
-              <p className="text-2xl font-bold">Bethesda</p>
+              <p className="text-2xl font-bold">Riverdale</p>
               <p className="text-sm text-gray-600">Maryland</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
+              <p className="text-sm text-gray-600">Trusted</p>
+              <p className="text-2xl font-bold">Expertise</p>
+              <p className="text-sm text-gray-600">Professional</p>
+            </div>
+            <div className="glass px-4 py-3 rounded-lg">
               <p className="text-sm text-gray-600">Client</p>
-              <p className="text-2xl font-bold">Loyalty</p>
-              <p className="text-sm text-gray-600">Long-term</p>
+              <p className="text-2xl font-bold">Focused</p>
+              <p className="text-sm text-gray-600">Services</p>
             </div>
           </div>
         </div>

@@ -1,6 +1,7 @@
 
 import React from "react";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const CTA = () => {
   return (
@@ -17,17 +18,17 @@ const CTA = () => {
           <div className="relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready to Take Control of Your <span className="gradient-text">Financial Future?</span>
+                Ready for Professional <span className="gradient-text">Accounting Services?</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Now is the time to plan and take a proactive approach in anticipation for tax filing season. Get in touch with us! Katz expert accountants and advisors are ready to provide the advice you need to protect your wealth at tax time.
+                Contact Leger Accounting, Corp. today to discuss how we can assist with your business and personal financial needs. Our experienced team is ready to provide the professional services you deserve.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                  Request a Consultation
+                  <Link to="/contact">Contact Us Today</Link>
                 </Button>
                 <Button variant="outline" className="border-accounting-700 text-accounting-700 hover:bg-accounting-50 px-8 py-6 text-lg">
-                  View Our Services
+                  <Link to="/business-services">View Our Services</Link>
                 </Button>
               </div>
             </div>

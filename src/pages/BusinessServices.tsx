@@ -3,56 +3,53 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const BusinessServices = () => {
   const services = [
     {
+      title: "Business Start-up",
+      description: "Assistance with obtaining all necessary state accounts to establish your business."
+    },
+    {
+      title: "Full Accounting Services",
+      description: "Write-up process, bank reconciliation, financial statement analysis, depreciation, and inventory management."
+    },
+    {
       title: "Payroll Services",
-      description: "Complete payroll processing, tax filing, and direct deposit services for businesses of all sizes."
+      description: "Complete payroll processing and management for your business."
     },
     {
-      title: "Financial Mentoring",
-      description: "Professional guidance to help business owners make informed financial decisions and achieve their goals."
+      title: "Business Income Tax Preparation",
+      description: "Comprehensive tax preparation including multi-state income taxes."
     },
     {
-      title: "Structured Partnerships",
-      description: "Expert assistance in creating and maintaining business partnerships that protect all parties involved."
+      title: "Minority Application Package",
+      description: "Specialized assistance for minority business applications and certifications."
     },
     {
-      title: "IRS Representation",
-      description: "Professional representation in dealings with the IRS, helping to navigate audits and resolve tax issues."
+      title: "IFTA Quarterly Reports Preparation",
+      description: "Professional preparation of International Fuel Tax Agreement (IFTA) quarterly reports."
     },
     {
-      title: "Financial Reporting",
-      description: "Comprehensive financial reporting services to help track business performance and make informed decisions."
+      title: "DOT Application",
+      description: "Assistance with Department of Transportation (DOT) application processes."
     },
     {
-      title: "Business Formation",
-      description: "Guidance through the process of establishing a new business, including entity selection and registration."
+      title: "Motor Carrier (MC) Application",
+      description: "Support with Motor Carrier (MC) application submissions and requirements."
     },
     {
-      title: "Business Valuations",
-      description: "Professional assessment of business worth for sale, acquisition, or partnership dissolution purposes."
+      title: "Contracts",
+      description: "Development and review of business contracts and agreements."
+    },
+    {
+      title: "Property Taxes",
+      description: "Management and processing of property tax requirements for businesses."
     },
     {
       title: "Business Dissolution",
-      description: "Expert assistance in navigating the complex process of closing or dissolving a business."
-    },
-    {
-      title: "Alternate and Traditional Financing",
-      description: "Help with securing funding through both conventional and alternative financing methods."
-    },
-    {
-      title: "Small Business Services",
-      description: "Specialized accounting services tailored to the unique needs of small businesses."
-    },
-    {
-      title: "Litigation Support",
-      description: "Professional assistance in financial matters related to business litigation."
-    },
-    {
-      title: "Forensic Accounting",
-      description: "Investigative accounting services to identify financial discrepancies and provide expert testimony."
+      description: "Professional guidance through the process of closing or dissolving a business."
     }
   ];
 
@@ -67,7 +64,7 @@ const BusinessServices = () => {
                 Business <span className="gradient-text">Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Comprehensive financial and accounting solutions to help your business thrive in today's competitive landscape.
+                Comprehensive business services tailored to help your business thrive in today's competitive landscape.
               </p>
             </div>
 
@@ -84,12 +81,12 @@ const BusinessServices = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-accounting-600/5 to-accounting-100/20 z-0"></div>
               <div className="relative z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold mb-6">Need Specialized Business Services?</h2>
+                  <h2 className="text-3xl font-bold mb-6">Need Business Accounting Services?</h2>
                   <p className="text-xl text-gray-600 mb-8">
                     Contact us today to discuss how we can help your business achieve its financial goals.
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    Schedule a Consultation
+                    <Link to="/contact">Contact Us</Link>
                   </Button>
                 </div>
               </div>

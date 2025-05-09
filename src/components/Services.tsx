@@ -34,9 +34,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Tax Preparation",
-      description: "Comprehensive tax preparation services for individuals and businesses ensuring compliance with current tax laws.",
-      link: "/individual-services"
+      title: "Business Services",
+      description: "Full accounting, payroll, business startup assistance, tax preparation, and more for your business needs.",
+      link: "/business-services"
     },
     {
       icon: (
@@ -44,9 +44,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Business Services",
-      description: "Business formation, payroll services, financial mentoring, and IRS representation for your business needs.",
-      link: "/business-services"
+      title: "Personal Services",
+      description: "Personal income tax preparation, tax planning, budget planning, and ITIN applications for individuals.",
+      link: "/personal-services"
     },
     {
       icon: (
@@ -54,19 +54,19 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       ),
-      title: "QuickBooks Services",
-      description: "QuickBooks setup, training and expert support to maximize your efficiency with this powerful tool.",
-      link: "/quickbooks-services"
+      title: "Other Services",
+      description: "Translations, notary public services, authorization letters, bill of sales, and application assistance.",
+      link: "/other-services"
     },
     {
       icon: (
         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9" />
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "International Services",
-      description: "Global tax and financial strategies including transfer pricing, international taxation, and compliance.",
-      link: "/international-services"
+      title: "Contact Us",
+      description: "Get in touch with our team to discuss how we can assist with your accounting and business needs.",
+      link: "/contact"
     },
   ];
 
@@ -75,10 +75,10 @@ const Services = () => {
       <div className="container-custom">
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Our <span className="gradient-text">Comprehensive</span> Services
+            Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            We offer a wide range of financial and accounting services tailored to meet your specific needs and help you achieve your goals.
+            We offer a wide range of accounting and business services tailored to meet your specific needs.
           </p>
         </div>
 

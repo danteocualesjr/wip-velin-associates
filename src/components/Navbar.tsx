@@ -26,20 +26,20 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Katz & Co., P.A.
+            Leger Accounting, Corp.
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
               Home
             </Link>
-            <Link to="/about" className="nav-link">
-              About Us
-            </Link>
             <Link to="/business-services" className="nav-link">
               Business Services
             </Link>
-            <Link to="/individual-services" className="nav-link">
-              Individual Services
+            <Link to="/personal-services" className="nav-link">
+              Personal Services
+            </Link>
+            <Link to="/other-services" className="nav-link">
+              Other Services
             </Link>
             <Link to="/contact" className="nav-link">
               Contact
@@ -99,13 +99,6 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/about"
-            className="nav-link py-2"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            About Us
-          </Link>
-          <Link
             to="/business-services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
@@ -113,11 +106,18 @@ const Navbar = () => {
             Business Services
           </Link>
           <Link
-            to="/individual-services"
+            to="/personal-services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Individual Services
+            Personal Services
+          </Link>
+          <Link
+            to="/other-services"
+            className="nav-link py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Other Services
           </Link>
           <Link
             to="/contact"
