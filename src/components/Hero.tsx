@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">CPA Associates</span>
+            <span className="gradient-text">Stemmy, Tidler & Morris, PA</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
             A full-service accounting firm offering a comprehensive range of services for individuals and businesses.
