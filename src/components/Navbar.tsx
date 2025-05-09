@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Geety, Blair, & Associates, P.A.
+            Katz & Co., P.A.
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
@@ -35,8 +35,11 @@ const Navbar = () => {
             <Link to="/about" className="nav-link">
               About Us
             </Link>
-            <Link to="/services" className="nav-link">
-              Services
+            <Link to="/business-services" className="nav-link">
+              Business Services
+            </Link>
+            <Link to="/individual-services" className="nav-link">
+              Individual Services
             </Link>
             <Link to="/contact" className="nav-link">
               Contact
@@ -103,11 +106,18 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to="/services"
+            to="/business-services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Services
+            Business Services
+          </Link>
+          <Link
+            to="/individual-services"
+            className="nav-link py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Individual Services
           </Link>
           <Link
             to="/contact"

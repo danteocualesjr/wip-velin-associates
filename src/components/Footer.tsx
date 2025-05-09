@@ -13,9 +13,9 @@ const Footer = () => {
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-6 gradient-text">GBA Accounting</h3>
+            <h3 className="text-2xl font-bold mb-6 gradient-text">Katz & Co., P.A.</h3>
             <p className="text-gray-400 mb-6">
-              Providing professional accounting and financial services with over 100 years of combined experience.
+              Providing professional accounting and financial services with over 40 years of experience from our Bethesda, Maryland location.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="w-10 h-10 bg-accounting-700/20 hover:bg-accounting-700/40 rounded-full flex items-center justify-center transition-colors">
@@ -43,8 +43,6 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Company</h4>
             <ul className="space-y-4">
               <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
-              <li><Link to="/team" className="text-gray-400 hover:text-white transition-colors">Our Team</Link></li>
-              <li><Link to="/careers" className="text-gray-400 hover:text-white transition-colors">Careers</Link></li>
               <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link></li>
             </ul>
           </div>
@@ -52,31 +50,32 @@ const Footer = () => {
           <div>
             <h4 className="text-lg font-semibold mb-6">Services</h4>
             <ul className="space-y-4">
-              <li><Link to="/services/tax" className="text-gray-400 hover:text-white transition-colors">Tax Preparation</Link></li>
-              <li><Link to="/services/payroll" className="text-gray-400 hover:text-white transition-colors">Payroll Services</Link></li>
-              <li><Link to="/services/planning" className="text-gray-400 hover:text-white transition-colors">Financial Planning</Link></li>
-              <li><Link to="/services/audit" className="text-gray-400 hover:text-white transition-colors">Audit Support</Link></li>
+              <li><Link to="/business-services" className="text-gray-400 hover:text-white transition-colors">Business Services</Link></li>
+              <li><Link to="/individual-services" className="text-gray-400 hover:text-white transition-colors">Individual Services</Link></li>
+              <li><Link to="/international-services" className="text-gray-400 hover:text-white transition-colors">International Services</Link></li>
+              <li><Link to="/quickbooks-services" className="text-gray-400 hover:text-white transition-colors">QuickBooks Services</Link></li>
+              <li><Link to="/forensic-accounting" className="text-gray-400 hover:text-white transition-colors">Forensic Accounting</Link></li>
+              <li><Link to="/financial-reporting" className="text-gray-400 hover:text-white transition-colors">Financial Reporting</Link></li>
             </ul>
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-6">Resources</h4>
+            <h4 className="text-lg font-semibold mb-6">Contact</h4>
             <ul className="space-y-4">
-              <li><Link to="/blog" className="text-gray-400 hover:text-white transition-colors">Blog</Link></li>
-              <li><Link to="/resources" className="text-gray-400 hover:text-white transition-colors">Tax Resources</Link></li>
-              <li><Link to="/faq" className="text-gray-400 hover:text-white transition-colors">FAQ</Link></li>
-              <li><Link to="/privacy" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</Link></li>
+              <li className="text-gray-400">4641 Montgomery Avenue Suite 200</li>
+              <li className="text-gray-400">Bethesda, MD 20814</li>
+              <li className="text-gray-400">Phone: 301.951.8700</li>
+              <li className="text-gray-400">Email: info@katzcpa.com</li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© 2025 Geety, Blair & Associates, P.A. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Katz & Co., P.A. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
               <li><Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">Terms</Link></li>
               <li><Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">Privacy</Link></li>
-              <li><Link to="/cookies" className="text-gray-400 hover:text-white text-sm transition-colors">Cookies</Link></li>
             </ul>
           </div>
         </div>

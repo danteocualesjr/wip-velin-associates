@@ -20,7 +20,7 @@ const CTA = () => {
                 Ready to Take Control of Your <span className="gradient-text">Financial Future?</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Schedule a consultation with our expert team today and learn how we can help you achieve your financial goals with confidence.
+                Now is the time to plan and take a proactive approach in anticipation for tax filing season. Get in touch with us! Katz expert accountants and advisors are ready to provide the advice you need to protect your wealth at tax time.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">

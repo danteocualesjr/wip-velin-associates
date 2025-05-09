@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Office Location</h4>
-                    <p className="text-gray-600">123 Accounting Street, Finance District, NY 10001</p>
+                    <p className="text-gray-600">4641 Montgomery Avenue Suite 200, Bethesda, MD 20814</p>
                   </div>
                 </div>
                 
@@ -43,7 +43,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Phone Number</h4>
-                    <p className="text-gray-600">+1 (555) 123-4567</p>
+                    <p className="text-gray-600">301.951.8700</p>
                   </div>
                 </div>
                 
@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Email Address</h4>
-                    <p className="text-gray-600">info@gbaaccounting.com</p>
+                    <p className="text-gray-600">info@katzcpa.com</p>
                   </div>
                 </div>
                 

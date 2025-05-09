@@ -14,21 +14,21 @@ const About = () => {
                 <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')] bg-cover bg-center"></div>
               </div>
               <div className="glass absolute right-4 -bottom-8 p-6 rounded-lg max-w-xs shadow-xl">
-                <p className="text-xl font-bold mb-2">100+</p>
-                <p className="text-gray-700">Years of combined experience in accounting and tax services</p>
+                <p className="text-xl font-bold mb-2">40+</p>
+                <p className="text-gray-700">Years of experience in accounting and tax services</p>
               </div>
             </div>
           </div>
 
           <div className="animate-fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              About <span className="gradient-text">Geety, Blair & Associates</span>
+              About <span className="gradient-text">Katz & Co., P.A.</span>
             </h2>
             <p className="text-gray-600 mb-4">
-              Geety, Blair & Associates, P.A. is a full-service accounting firm offering a comprehensive range of financial services for both businesses and individuals.
+              Katz & Co., P.A. is a full-service accounting firm based in Bethesda, Maryland, offering a comprehensive range of financial services for both businesses and individuals.
             </p>
             <p className="text-gray-600 mb-6">
-              With over 100 years of combined experience in tax and accounting, along with extensive audit and IRS support expertise, our team is equipped to handle all of your financial needs with precision and care.
+              With over 40 years of experience in tax and accounting, our team is equipped to handle all of your financial needs with precision and care, both domestically and internationally.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">
@@ -45,8 +45,8 @@ const About = () => {
                 <p className="text-gray-600">Strong representation and expert guidance in audits</p>
               </div>
               <div className="glass p-4 rounded-lg">
-                <h4 className="font-bold text-lg mb-2">Modern Approach</h4>
-                <p className="text-gray-600">Using the latest tools and technologies for optimal results</p>
+                <h4 className="font-bold text-lg mb-2">QuickBooks Experts</h4>
+                <p className="text-gray-600">Specialized setup, training and ongoing support</p>
               </div>
             </div>
 

@@ -18,7 +18,7 @@ const Hero = () => {
             <span className="gradient-text">Financial Clarity</span> for Your Future
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            Over 100 years of combined experience providing expert accounting, tax, and financial services for businesses and individuals.
+            Katz & Co. has been providing financial services to individuals for over forty years. Most of our clients are long-term, having repeatedly benefited from our help.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -32,19 +32,19 @@ const Hero = () => {
           
           <div className="mt-12 flex items-center gap-6">
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Trusted by</p>
-              <p className="text-2xl font-bold">500+</p>
-              <p className="text-sm text-gray-600">Clients</p>
-            </div>
-            <div className="glass px-4 py-3 rounded-lg">
               <p className="text-sm text-gray-600">Experience</p>
-              <p className="text-2xl font-bold">100+</p>
-              <p className="text-sm text-gray-600">Combined Years</p>
+              <p className="text-2xl font-bold">40+</p>
+              <p className="text-sm text-gray-600">Years</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Satisfaction</p>
-              <p className="text-2xl font-bold">99%</p>
-              <p className="text-sm text-gray-600">Client Rate</p>
+              <p className="text-sm text-gray-600">Based in</p>
+              <p className="text-2xl font-bold">Bethesda</p>
+              <p className="text-sm text-gray-600">Maryland</p>
+            </div>
+            <div className="glass px-4 py-3 rounded-lg">
+              <p className="text-sm text-gray-600">Client</p>
+              <p className="text-2xl font-bold">Loyalty</p>
+              <p className="text-sm text-gray-600">Long-term</p>
             </div>
           </div>
         </div>
