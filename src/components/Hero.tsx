@@ -16,7 +16,7 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">DCA LLC</span> Accounting
+            <span className="gradient-text">D'Amelio Cohen & Associates</span> LLC
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
             A full-service accounting firm licensed in Maryland, offering a broad range of services for business owners, executives, and independent professionals.
