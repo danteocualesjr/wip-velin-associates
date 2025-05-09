@@ -26,7 +26,7 @@ const About = () => {
               About <span className="gradient-text">ST&M</span>
             </h2>
             <p className="text-gray-600 mb-4">
-              Stemmy, Tidler & Morris, P.A. (ST&M) is a full-service Certified Public Accounting firm licensed in Maryland, providing tax and financial services to businesses and individuals since 1976.
+              Stemmy, Tidler & Morris, PA is a full-service Certified Public Accounting firm licensed in Maryland, providing tax and financial services to businesses and individuals since 1976.
             </p>
             <p className="text-gray-600 mb-6">
               "Serving our client's needs is our number one priority." — Thomas J. Stemmy, CPA
