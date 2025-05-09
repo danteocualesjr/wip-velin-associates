@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Leger Accounting, Corp.
+            D'Amelio Cohen & Associates LLC
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
