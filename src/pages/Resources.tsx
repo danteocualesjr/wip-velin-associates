@@ -4,28 +4,45 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const Resources = () => {
   const resources = [
     {
       title: "Financial Calculators",
       description: "Use our financial calculators to help plan for your future and make informed financial decisions.",
-      buttonText: "Access Calculators"
+      buttonText: "Access Calculators",
+      link: "/resources#calculators"
     },
     {
-      title: "Tax Forms and Publications",
-      description: "Download the latest tax forms and access official IRS publications to help with your tax preparation.",
-      buttonText: "View Tax Forms"
+      title: "Tax Center",
+      description: "Find tax forms, due dates, rates, and helpful resources to assist with your tax preparation.",
+      buttonText: "Visit Tax Center",
+      link: "/tax-center"
+    },
+    {
+      title: "Client Portal",
+      description: "Access your financial documents securely through our password-protected portal.",
+      buttonText: "Login to Portal",
+      link: "/client-center"
+    },
+    {
+      title: "Record Retention Guide",
+      description: "Learn how long to keep financial records and documents for personal and business purposes.",
+      buttonText: "View Guide",
+      link: "/record-retention"
     },
     {
       title: "Newsletters",
       description: "Stay informed with our latest newsletters covering tax updates, financial tips, and more.",
-      buttonText: "Read Newsletters"
+      buttonText: "Read Newsletters",
+      link: "/newsletter"
     },
     {
-      title: "Useful Internet Links",
-      description: "Browse our curated collection of useful links to financial and tax-related resources.",
-      buttonText: "Visit Links"
+      title: "Financial Guides",
+      description: "Access comprehensive guides on life events, business strategies, investments, and tax planning.",
+      buttonText: "View Guides",
+      link: "/financial-guides"
     }
   ];
 
@@ -44,7 +61,7 @@ const Resources = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
               {resources.map((resource, index) => (
                 <Card key={index} className="glass border-transparent">
                   <CardHeader>
@@ -53,7 +70,7 @@ const Resources = () => {
                   </CardHeader>
                   <CardContent>
                     <Button className="bg-accounting-700 hover:bg-accounting-800 text-white">
-                      {resource.buttonText}
+                      <Link to={resource.link}>{resource.buttonText}</Link>
                     </Button>
                   </CardContent>
                 </Card>
@@ -69,7 +86,7 @@ const Resources = () => {
                     Our team of experts is ready to assist you with any financial questions or concerns.
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    Contact Us Today
+                    <Link to="/contact">Contact Us Today</Link>
                   </Button>
                 </div>
               </div>

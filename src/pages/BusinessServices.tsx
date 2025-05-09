@@ -8,48 +8,36 @@ import { Link } from "react-router-dom";
 const BusinessServices = () => {
   const services = [
     {
-      title: "Business Start-up",
-      description: "Assistance with obtaining all necessary state accounts to establish your business."
+      title: "Small Business Accounting",
+      description: "Comprehensive bookkeeping and accounting services tailored for small businesses."
     },
     {
-      title: "Full Accounting Services",
-      description: "Write-up process, bank reconciliation, financial statement analysis, depreciation, and inventory management."
+      title: "Financial Statements",
+      description: "Review and compilation of financial statements to provide insights into your business's financial health."
     },
     {
-      title: "Payroll Services",
-      description: "Complete payroll processing and management for your business."
+      title: "Part-Time CFO Services",
+      description: "Professional financial leadership on a part-time basis to help guide your business."
     },
     {
-      title: "Business Income Tax Preparation",
-      description: "Comprehensive tax preparation including multi-state income taxes."
+      title: "Cash Flow Management",
+      description: "Strategies to optimize your business's cash flow and financial operations."
     },
     {
-      title: "Minority Application Package",
-      description: "Specialized assistance for minority business applications and certifications."
+      title: "Bank Financing",
+      description: "Assistance with securing loans and managing relationships with financial institutions."
     },
     {
-      title: "IFTA Quarterly Reports Preparation",
-      description: "Professional preparation of International Fuel Tax Agreement (IFTA) quarterly reports."
+      title: "Business Consulting",
+      description: "Expert advice to help your business reach its full potential and overcome challenges."
     },
     {
-      title: "DOT Application",
-      description: "Assistance with Department of Transportation (DOT) application processes."
+      title: "Succession Planning",
+      description: "Strategic planning for seamless leadership transitions and business continuity."
     },
     {
-      title: "Motor Carrier (MC) Application",
-      description: "Support with Motor Carrier (MC) application submissions and requirements."
-    },
-    {
-      title: "Contracts",
-      description: "Development and review of business contracts and agreements."
-    },
-    {
-      title: "Property Taxes",
-      description: "Management and processing of property tax requirements for businesses."
-    },
-    {
-      title: "Business Dissolution",
-      description: "Professional guidance through the process of closing or dissolving a business."
+      title: "New Business Formation",
+      description: "Guidance on selecting the right business entity and establishing new businesses."
     }
   ];
 
@@ -64,7 +52,7 @@ const BusinessServices = () => {
                 Business <span className="gradient-text">Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Comprehensive business services tailored to help your business thrive in today's competitive landscape.
+                Comprehensive business services to help your company thrive and achieve financial success.
               </p>
             </div>
 
@@ -81,13 +69,18 @@ const BusinessServices = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-accounting-600/5 to-accounting-100/20 z-0"></div>
               <div className="relative z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold mb-6">Need Business Accounting Services?</h2>
+                  <h2 className="text-3xl font-bold mb-6">Ready to Grow Your Business?</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    Contact us today to discuss how we can help your business achieve its financial goals.
+                    Contact us today to discuss how our business services can help your company succeed.
                   </p>
-                  <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    <Link to="/contact">Contact Us</Link>
-                  </Button>
+                  <div className="flex flex-col sm:flex-row justify-center gap-4">
+                    <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
+                      <Link to="/contact">Contact Us</Link>
+                    </Button>
+                    <Button variant="outline" className="border-accounting-700 text-accounting-700 hover:bg-accounting-50 px-8 py-6 text-lg">
+                      <Link to="/nonprofit-organizations">Non-Profit Services</Link>
+                    </Button>
+                  </div>
                 </div>
               </div>
             </div>
