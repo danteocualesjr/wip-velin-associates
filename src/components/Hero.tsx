@@ -16,15 +16,15 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">D'Amelio Cohen & Associates</span> LLC
+            <span className="gradient-text">CPA Associates</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            A full-service accounting firm licensed in Maryland, offering a broad range of services for business owners, executives, and independent professionals.
+            A full-service accounting firm offering a comprehensive range of services for individuals and businesses.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
             <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-              <Link to="/business-services">Our Services</Link>
+              <Link to="/services">Our Services</Link>
             </Button>
             <Button variant="outline" className="border-accounting-700 text-accounting-700 hover:bg-accounting-50 px-8 py-6 text-lg">
               <Link to="/contact">Contact Us</Link>
@@ -33,19 +33,19 @@ const Hero = () => {
           
           <div className="mt-12 flex items-center gap-6">
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Based in</p>
-              <p className="text-2xl font-bold">Baltimore</p>
-              <p className="text-sm text-gray-600">Maryland</p>
-            </div>
-            <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Trusted</p>
-              <p className="text-2xl font-bold">Expertise</p>
               <p className="text-sm text-gray-600">Professional</p>
+              <p className="text-2xl font-bold">Expertise</p>
+              <p className="text-sm text-gray-600">& Experience</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Client</p>
-              <p className="text-2xl font-bold">Focused</p>
-              <p className="text-sm text-gray-600">Services</p>
+              <p className="text-sm text-gray-600">Personal</p>
+              <p className="text-2xl font-bold">Attention</p>
+              <p className="text-sm text-gray-600">To Clients</p>
+            </div>
+            <div className="glass px-4 py-3 rounded-lg">
+              <p className="text-sm text-gray-600">Outstanding</p>
+              <p className="text-2xl font-bold">Service</p>
+              <p className="text-sm text-gray-600">Standards</p>
             </div>
           </div>
         </div>

@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Office Location</h4>
-                    <p className="text-gray-600">4641 Montgomery Avenue Suite 200, Bethesda, MD 20814</p>
+                    <p className="text-gray-600">[Firm's Address]</p>
                   </div>
                 </div>
                 
@@ -42,8 +42,9 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">Phone Number</h4>
-                    <p className="text-gray-600">301.951.8700</p>
+                    <h4 className="font-semibold text-lg">Phone Numbers</h4>
+                    <p className="text-gray-600">Phone: [Firm's Phone Number]</p>
+                    <p className="text-gray-600">Fax: [Firm's Fax Number]</p>
                   </div>
                 </div>
                 
@@ -56,7 +57,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Email Address</h4>
-                    <p className="text-gray-600">info@katzcpa.com</p>
+                    <p className="text-gray-600">[Firm's Email Address]</p>
                   </div>
                 </div>
                 

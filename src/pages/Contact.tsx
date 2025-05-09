@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions or want to schedule a consultation? Reach out to our team at DCA LLC.
+                Have questions or want to schedule a consultation? Reach out to our team at CPA Associates.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Office Location</h4>
-                        <p className="text-gray-600">6100 Baltimore National Pike, Baltimore, MD 21228</p>
+                        <p className="text-gray-600">[Firm's Address]</p>
                       </div>
                     </div>
                     
@@ -48,8 +48,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Phone Numbers</h4>
-                        <p className="text-gray-600">Phone: (410) 788-0600</p>
-                        <p className="text-gray-600">Fax: (410) 788-0660</p>
+                        <p className="text-gray-600">Phone: [Firm's Phone Number]</p>
+                        <p className="text-gray-600">Fax: [Firm's Fax Number]</p>
                       </div>
                     </div>
                     
@@ -62,7 +62,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">info@dcsllc.com</p>
+                        <p className="text-gray-600">[Firm's Email Address]</p>
                       </div>
                     </div>
                     

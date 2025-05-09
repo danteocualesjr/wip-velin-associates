@@ -34,9 +34,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Business Services",
-      description: "Small business accounting, payroll services, and other services for business owners and executives.",
-      link: "/business-services"
+      title: "Tax Services",
+      description: "Tax preparation, tax planning, and IRS representation for individuals and businesses.",
+      link: "/services"
     },
     {
       icon: (
@@ -44,9 +44,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Tax Services",
-      description: "Tax preparation, tax planning, and other tax-related services for individuals and businesses.",
-      link: "/personal-services"
+      title: "Accounting Services",
+      description: "Bookkeeping, financial statements, and payroll services for your business needs.",
+      link: "/services"
     },
     {
       icon: (
@@ -54,9 +54,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       ),
-      title: "QuickBooks Services",
-      description: "QuickBooks setup, training, and support services for your business accounting needs.",
-      link: "/quickbooks-services"
+      title: "Consulting Services",
+      description: "Business consulting, estate planning, and retirement planning services.",
+      link: "/services"
     },
     {
       icon: (
@@ -64,9 +64,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Client Center",
-      description: "Access newsletters, a secure client portal, financial calculators, and useful internet links.",
-      link: "/client-center"
+      title: "Resources",
+      description: "Financial calculators, tax forms, newsletters, and useful links.",
+      link: "/resources"
     },
   ];
 
