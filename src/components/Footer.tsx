@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-6 gradient-text">Maryland Tax Service, Inc.</h3>
+            <h3 className="text-2xl font-bold mb-6 gradient-text">Bill Posner, CPA, PA</h3>
             <p className="text-gray-400 mb-6">
               A full-service accounting firm based in Owings Mills, Maryland, providing professional, personalized services and guidance in a wide range of financial and business needs.
             </p>
@@ -66,13 +66,13 @@ const Footer = () => {
               <li className="text-gray-400">Phone: (410) 654-9424</li>
               <li className="text-gray-400">Toll Free: (800) 892-9631</li>
               <li className="text-gray-400">Fax: (410) 654-1277</li>
-              <li className="text-gray-400">Email: travis@mdtaxservice.com</li>
+              <li className="text-gray-400">Email: info@billposnercpa.com</li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© 2025 Maryland Tax Service, Inc. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Bill Posner, CPA, PA. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
               <li><Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">Terms</Link></li>

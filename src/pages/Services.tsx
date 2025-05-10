@@ -135,7 +135,7 @@ const Services = () => {
                   <div className="text-xl text-gray-600 mb-8">
                     <p className="mb-2"><strong>Address:</strong> 13301 Woodruff Ct, Germantown, MD 20874</p>
                     <p className="mb-2"><strong>Phone:</strong> 301-528-2701</p>
-                    <p className="mb-2"><strong>Email:</strong> Info@BillPosnerCPA.com</p>
+                    <p className="mb-2"><strong>Email:</strong> info@billposnercpa.com</p>
                   </div>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
                     <Link to="/contact">Get in Touch</Link>

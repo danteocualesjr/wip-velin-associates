@@ -21,7 +21,7 @@ const ClientCenter = () => {
               </p>
               <div className="mt-6 text-amber-600 font-medium">
                 <p>
-                  Please contact us at silvio@corporateaccounting.biz if you run into any issues. 
+                  Please contact us at info@billposnercpa.com if you run into any issues. 
                   Please do not upload HEIC formatted documents (iPhone photos). Thank you!
                 </p>
               </div>

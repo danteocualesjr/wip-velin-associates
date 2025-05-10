@@ -23,10 +23,10 @@ const About = () => {
 
           <div className="animate-fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              About <span className="gradient-text">Maryland Tax Service, Inc.</span>
+              About <span className="gradient-text">Bill Posner, CPA, PA</span>
             </h2>
             <p className="text-gray-600 mb-4">
-              Maryland Tax Service, Inc., led by CPA Travis Funkhouser, offers personalized tax preparation and planning services for individuals and small businesses in Montgomery County and surrounding areas.
+              Bill Posner, CPA, PA, led by CPA Travis Funkhouser, offers personalized tax preparation and planning services for individuals and small businesses in Montgomery County and surrounding areas.
             </p>
             <p className="text-gray-600 mb-6">
               "Our team of experienced professionals is dedicated to providing personalized tax services tailored to your unique needs."

@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Maryland Tax Service, Inc.
+            Bill Posner, CPA, PA
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">

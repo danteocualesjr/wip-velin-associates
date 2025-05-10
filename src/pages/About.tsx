@@ -14,7 +14,7 @@ const About = () => {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                About <span className="gradient-text">Maryland Tax Service, Inc.</span>
+                About <span className="gradient-text">Bill Posner, CPA, PA</span>
               </h1>
               <p className="text-xl text-gray-600">
                 Learn about our firm's history, mission, and why our clients trust us.
@@ -34,7 +34,7 @@ const About = () => {
               <div className="animate-fade-up">
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Maryland Tax Service, Inc. traces its roots to 2012 when Travis Funkhouser began preparing taxes in his father-in-law's tax preparation service. After earning his CPA license in 2013, he ventured off on his own as a solo practitioner.
+                  Bill Posner, CPA, PA traces its roots to 2012 when Travis Funkhouser began preparing taxes in his father-in-law's tax preparation service. After earning his CPA license in 2013, he ventured off on his own as a solo practitioner.
                 </p>
                 <p className="text-gray-600 mb-4">
                   We are committed to maintaining the highest standards of integrity and professionalism in our relationship with clients. We strive to provide quality accounting services with personal attention to each client's unique needs.

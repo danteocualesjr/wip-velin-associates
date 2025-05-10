@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions about our tax services? Reach out to Maryland Tax Service, Inc.
+                Have questions about our tax services? Reach out to Bill Posner, CPA, PA.
               </p>
             </div>
 
@@ -61,7 +61,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">travis@mdtaxservice.com</p>
+                        <p className="text-gray-600">info@billposnercpa.com</p>
                       </div>
                     </div>
                     
