@@ -18,10 +18,10 @@ const CTA = () => {
           <div className="relative z-10">
             <div className="max-w-3xl mx-auto text-center">
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Ready for Professional <span className="gradient-text">Accounting Services?</span>
+                Ready for Professional <span className="gradient-text">Tax Services?</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                "Charles Krengel, P.A. is one of the leading firms in the area. By combining our expertise, experience, and the team mentality of our staff, we assure that every client receives the close analysis and attention they deserve."
+                "Unlike most tax services, we post our Tax Preparation Pricing estimates on our website, so you know what to expect."
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">

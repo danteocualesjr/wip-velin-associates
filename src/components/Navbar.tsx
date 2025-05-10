@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Charles Krengel, P.A.
+            Maryland Tax Service, Inc.
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
@@ -35,14 +35,11 @@ const Navbar = () => {
             <Link to="/about" className="nav-link">
               About Us
             </Link>
+            <Link to="/services" className="nav-link">
+              Services
+            </Link>
             <Link to="/tax-tools" className="nav-link">
               Tax Tools
-            </Link>
-            <Link to="/news" className="nav-link">
-              News
-            </Link>
-            <Link to="/financial-guides" className="nav-link">
-              Financial Guides
             </Link>
             <Link to="/contact" className="nav-link">
               Contact
@@ -109,6 +106,13 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
+            to="/services"
+            className="nav-link py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Services
+          </Link>
+          <Link
             to="/tax-tools"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
@@ -123,25 +127,18 @@ const Navbar = () => {
             News
           </Link>
           <Link
-            to="/financial-guides"
+            to="/entity-selection"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Financial Guides
+            Entity Selection
           </Link>
           <Link
-            to="/glossary"
+            to="/tax-organizer"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Glossary
-          </Link>
-          <Link
-            to="/links"
-            className="nav-link py-2"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Links
+            Tax Organizers
           </Link>
           <Link
             to="/contact"

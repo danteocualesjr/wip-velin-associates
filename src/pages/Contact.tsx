@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions or want to schedule a consultation? Reach out to our team at Charles Krengel, P.A.
+                Have questions about our tax services? Reach out to Maryland Tax Service, Inc.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Office Location</h4>
-                        <p className="text-gray-600">4 Park Center Court, Suite 203, Owings Mills, MD 21117</p>
+                        <p className="text-gray-600">22520 Sweetleaf Lane, Gaithersburg, Maryland 20882</p>
                       </div>
                     </div>
                     
@@ -47,9 +47,8 @@ const Contact = () => {
                         </svg>
                       </div>
                       <div>
-                        <h4 className="font-semibold text-lg">Phone & Fax</h4>
-                        <p className="text-gray-600">Phone: (410) 654-9424 / (800) 892-9631</p>
-                        <p className="text-gray-600">Fax: (410) 654-1277</p>
+                        <h4 className="font-semibold text-lg">Phone</h4>
+                        <p className="text-gray-600">301-789-9044</p>
                       </div>
                     </div>
                     
@@ -62,7 +61,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">chuck@krengelcpas.com</p>
+                        <p className="text-gray-600">travis@mdtaxservice.com</p>
                       </div>
                     </div>
                     
@@ -85,6 +84,9 @@ const Contact = () => {
               <div className="animate-fade-up" style={{ animationDelay: "0.2s" }}>
                 <div className="glass border-transparent rounded-2xl p-8">
                   <h3 className="text-2xl font-bold mb-6">Send us a Message</h3>
+                  <div className="p-4 mb-6 bg-yellow-50 border border-yellow-200 rounded-lg text-yellow-800">
+                    <p>We are full and not accepting new clients. If you would like to join our waiting list, please let us know.</p>
+                  </div>
                   <form className="space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
@@ -130,7 +132,7 @@ const Contact = () => {
                       />
                     </div>
                     <Button type="submit" className="w-full bg-accounting-700 hover:bg-accounting-800 text-white">
-                      Send Message
+                      Join Waiting List
                     </Button>
                   </form>
                 </div>

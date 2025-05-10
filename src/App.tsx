@@ -17,6 +17,10 @@ import FinancialGuides from "./pages/FinancialGuides";
 import Links from "./pages/Links";
 import NotFound from "./pages/NotFound";
 import Services from "./pages/Services";
+import TaxCenter from "./pages/TaxCenter";
+import EntitySelection from "./pages/EntitySelection";
+import TaxOrganizer from "./pages/TaxOrganizer";
+import SelfEmploymentPlanning from "./pages/SelfEmploymentPlanning";
 
 const queryClient = new QueryClient();
 
@@ -38,6 +42,10 @@ const App = () => (
           <Route path="/news" element={<NewsInsights />} />
           <Route path="/financial-guides" element={<FinancialGuides />} />
           <Route path="/links" element={<Links />} />
+          <Route path="/tax-center" element={<TaxCenter />} />
+          <Route path="/entity-selection" element={<EntitySelection />} />
+          <Route path="/tax-organizer" element={<TaxOrganizer />} />
+          <Route path="/self-employment-planning" element={<SelfEmploymentPlanning />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

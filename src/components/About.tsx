@@ -15,21 +15,21 @@ const About = () => {
                 <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')] bg-cover bg-center"></div>
               </div>
               <div className="glass absolute right-4 -bottom-8 p-6 rounded-lg max-w-xs shadow-xl">
-                <p className="text-xl font-bold mb-2">Established 1987</p>
-                <p className="text-gray-700">Serving Baltimore, Owings Mills, and surrounding areas for over 35 years</p>
+                <p className="text-xl font-bold mb-2">Established 2012</p>
+                <p className="text-gray-700">Serving Montgomery County and surrounding areas with professional tax services</p>
               </div>
             </div>
           </div>
 
           <div className="animate-fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              About <span className="gradient-text">Charles Krengel, P.A.</span>
+              About <span className="gradient-text">Maryland Tax Service, Inc.</span>
             </h2>
             <p className="text-gray-600 mb-4">
-              Charles Krengel, P.A. is a full-service accounting firm based in Owings Mills, Maryland, established in 1987, providing professional services to individuals and businesses.
+              Maryland Tax Service, Inc., led by CPA Travis Funkhouser, offers personalized tax preparation and planning services for individuals and small businesses in Montgomery County and surrounding areas.
             </p>
             <p className="text-gray-600 mb-6">
-              "Serving our client's needs is our number one priority." — Charles Krengel, P.A.
+              "Our team of experienced professionals is dedicated to providing personalized tax services tailored to your unique needs."
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">
@@ -38,16 +38,16 @@ const About = () => {
                 <p className="text-gray-600">Tax preparation and planning to minimize your tax liability</p>
               </div>
               <div className="glass p-4 rounded-lg">
-                <h4 className="font-bold text-lg mb-2">Estate Services</h4>
-                <p className="text-gray-600">Estate planning, administration, and tax preparation</p>
+                <h4 className="font-bold text-lg mb-2">Self-Employment</h4>
+                <p className="text-gray-600">Guidance on quarterly estimated payments and tax obligations</p>
               </div>
               <div className="glass p-4 rounded-lg">
                 <h4 className="font-bold text-lg mb-2">Business Services</h4>
-                <p className="text-gray-600">Business consulting, entity selection, and tax planning</p>
+                <p className="text-gray-600">Entity selection and business structure consulting</p>
               </div>
               <div className="glass p-4 rounded-lg">
                 <h4 className="font-bold text-lg mb-2">Client Portal</h4>
-                <p className="text-gray-600">Secure access to documents via ShareFile</p>
+                <p className="text-gray-600">Secure access to your tax information and documents</p>
               </div>
             </div>
 
