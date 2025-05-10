@@ -14,10 +14,10 @@ const About = () => {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                About <span className="gradient-text">DCA LLC</span>
+                About <span className="gradient-text">James Magno CPA LLC</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Learn about our firm's history, mission, and the team behind DCA LLC.
+                Learn about our firm's history, mission, and the team behind James Magno CPA LLC.
               </p>
             </div>
 
@@ -34,20 +34,23 @@ const About = () => {
               <div className="animate-fade-up">
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  DCA LLC is a full-service accounting firm licensed in Maryland, offering a broad range of services for business owners, executives, and independent professionals.
+                  James Magno CPA LLC is a full-service accounting firm based in Rockville, Maryland, specializing in estate-related tax preparation and administration.
                 </p>
-                <p className="text-gray-600 mb-6">
-                  Our firm combines expertise, experience, and the energy of our staff to provide each client with close personal and professional attention.
+                <p className="text-gray-600 mb-4">
+                  James Magno launched his firm in November 2014 after nearly twenty years with Gold, Leins and Adoff LLP. He has over 30 years of experience in public accounting.
                 </p>
                 <p className="text-gray-600 mb-6">
                   We take pride in our affordable, experienced, and friendly approach to serving our clients' accounting and financial needs.
                 </p>
                 
                 <div className="glass p-6 rounded-xl mb-6">
-                  <h3 className="text-xl font-bold mb-3">Our Mission</h3>
-                  <p className="text-gray-600">
-                    To provide personalized accounting services that help our clients achieve their financial goals through expert guidance and support.
-                  </p>
+                  <h3 className="text-xl font-bold mb-3">Credentials</h3>
+                  <ul className="text-gray-600 space-y-2">
+                    <li>• BS in Accounting from the University of Maryland</li>
+                    <li>• Master's of Taxation from the University of Baltimore</li>
+                    <li>• Certificates of completion for Trust Tax I and Trust Tax II from Cannon Trust School</li>
+                    <li>• Member of AICPA, MACPA, MSATP, APCPA, and NCACPA</li>
+                  </ul>
                 </div>
 
                 <Button className="bg-accounting-700 hover:bg-accounting-800 text-white">
@@ -62,10 +65,10 @@ const About = () => {
                 <div className="max-w-3xl mx-auto text-center">
                   <h2 className="text-3xl font-bold mb-6">Our Commitment to Security</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    "Your data is safe with us. Our client portal protects you with 14 layers of security."
+                    "Your data is safe with us. Our client portal protects you with secure document sharing through ShareFile."
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    <Link to="/client-center">Visit Our Client Center</Link>
+                    <Link to="/client-center">Visit Our Client Portal</Link>
                   </Button>
                 </div>
               </div>

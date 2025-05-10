@@ -16,10 +16,10 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">Stemmy, Tidler & Morris, PA</span>
+            <span className="gradient-text">James Magno CPA LLC</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            A full-service accounting firm offering a comprehensive range of services for individuals and businesses.
+            A full-service accounting firm with over 30 years of experience serving individuals, businesses, and estate fiduciaries.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -33,19 +33,19 @@ const Hero = () => {
           
           <div className="mt-12 flex items-center gap-6">
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Professional</p>
-              <p className="text-2xl font-bold">Expertise</p>
-              <p className="text-sm text-gray-600">& Experience</p>
+              <p className="text-sm text-gray-600">Tax</p>
+              <p className="text-2xl font-bold">Preparation</p>
+              <p className="text-sm text-gray-600">& Planning</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Personal</p>
-              <p className="text-2xl font-bold">Attention</p>
-              <p className="text-sm text-gray-600">To Clients</p>
+              <p className="text-sm text-gray-600">Estate</p>
+              <p className="text-2xl font-bold">Planning</p>
+              <p className="text-sm text-gray-600">& Administration</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Outstanding</p>
-              <p className="text-2xl font-bold">Service</p>
-              <p className="text-sm text-gray-600">Standards</p>
+              <p className="text-sm text-gray-600">Business</p>
+              <p className="text-2xl font-bold">Consulting</p>
+              <p className="text-sm text-gray-600">Services</p>
             </div>
           </div>
         </div>

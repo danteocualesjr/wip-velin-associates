@@ -28,7 +28,7 @@ const CTA = () => {
                   <Link to="/contact">Contact Us Today</Link>
                 </Button>
                 <Button variant="outline" className="border-accounting-700 text-accounting-700 hover:bg-accounting-50 px-8 py-6 text-lg">
-                  <Link to="/business-services">View Our Services</Link>
+                  <Link to="/client-center">Client Portal</Link>
                 </Button>
               </div>
             </div>

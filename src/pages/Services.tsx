@@ -9,7 +9,7 @@ const Services = () => {
   const taxServices = [
     {
       title: "Tax Preparation",
-      description: "Comprehensive tax preparation services for individuals and businesses."
+      description: "Comprehensive tax preparation services for individuals, trusts, and businesses."
     },
     {
       title: "Tax Planning",
@@ -17,37 +17,37 @@ const Services = () => {
     },
     {
       title: "IRS Representation",
-      description: "Professional representation before the IRS for audits, collections, and appeals."
+      description: "Professional representation for tax matters with the IRS."
     }
   ];
 
-  const accountingServices = [
+  const estateServices = [
     {
-      title: "Bookkeeping",
-      description: "Accurate and timely bookkeeping services to keep your finances in order."
+      title: "Estate Planning",
+      description: "Assistance with gift tax planning and charitable giving strategies."
     },
     {
-      title: "Financial Statements",
-      description: "Preparation of clear and comprehensive financial statements for your business."
+      title: "Estate Administration",
+      description: "Support for families dealing with estate administration and tax matters."
     },
     {
-      title: "Payroll Services",
-      description: "Complete payroll processing and management for businesses of all sizes."
+      title: "Estate Tax Preparation",
+      description: "Specialized tax preparation for estates and trusts."
     }
   ];
 
   const consultingServices = [
     {
-      title: "Business Consulting",
-      description: "Expert guidance to help your business thrive and achieve its goals."
+      title: "Business Entity Selection",
+      description: "Guidance on selecting the right business structure for your needs."
     },
     {
-      title: "Estate Planning",
-      description: "Comprehensive estate planning to protect your assets and provide for your loved ones."
+      title: "Budgeting & Projections",
+      description: "Financial planning and projections for your business."
     },
     {
-      title: "Retirement Planning",
-      description: "Strategic retirement planning to ensure financial security in your golden years."
+      title: "Legal Support",
+      description: "Support for attorneys and their clients with tax calculations and probate accountings."
     }
   ];
 
@@ -59,7 +59,7 @@ const Services = () => {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Our <span className="gradient-text">Services</span>
+                Our <span className="gradient-text">Practice Areas</span>
               </h1>
               <p className="text-xl text-gray-600">
                 We offer a wide array of services to meet the diverse needs of our clients.
@@ -67,7 +67,10 @@ const Services = () => {
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">Tax Services</h2>
+              <h2 className="text-3xl font-bold mb-8">Tax Preparation and Planning</h2>
+              <p className="text-gray-600 mb-6">
+                Cut your future tax bills with careful tax planning. If you're frustrated by big box tax software, we can ease your way and alleviate confusion.
+              </p>
               <div className="grid md:grid-cols-3 gap-8">
                 {taxServices.map((service, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
@@ -79,9 +82,12 @@ const Services = () => {
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">Accounting Services</h2>
+              <h2 className="text-3xl font-bold mb-8">Estate Planning and Administration</h2>
+              <p className="text-gray-600 mb-6">
+                We provide a full range of accounting services. We can help educate and navigate all the tax related matters associated with estate administration.
+              </p>
               <div className="grid md:grid-cols-3 gap-8">
-                {accountingServices.map((service, index) => (
+                {estateServices.map((service, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                     <p className="text-gray-600">{service.description}</p>
@@ -91,7 +97,10 @@ const Services = () => {
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">Consulting Services</h2>
+              <h2 className="text-3xl font-bold mb-8">Business Consulting</h2>
+              <p className="text-gray-600 mb-6">
+                Guidance on business entity selection, budgeting, projections, and support for attorneys and their clients with tax calculations and probate accountings.
+              </p>
               <div className="grid md:grid-cols-3 gap-8">
                 {consultingServices.map((service, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">

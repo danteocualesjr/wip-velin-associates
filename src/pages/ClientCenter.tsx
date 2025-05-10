@@ -3,32 +3,9 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
+import { Link } from "react-router-dom";
 
 const ClientCenter = () => {
-  const resources = [
-    {
-      title: "Secure Client Portal",
-      description: "Access your financial documents securely. Our client portal protects you with 14 layers of security.",
-      buttonText: "Login to Portal"
-    },
-    {
-      title: "Newsletter Subscription",
-      description: "Stay informed with our latest newsletters covering tax updates, financial tips, and more.",
-      buttonText: "Subscribe Now"
-    },
-    {
-      title: "Financial Calculators",
-      description: "Use our financial calculators to help plan for your future and make informed financial decisions.",
-      buttonText: "Access Calculators"
-    },
-    {
-      title: "Useful Internet Links",
-      description: "Browse our curated collection of useful links to financial and tax-related resources.",
-      buttonText: "View Links"
-    }
-  ];
-
   return (
     <>
       <Navbar />
@@ -37,39 +14,57 @@ const ClientCenter = () => {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Client <span className="gradient-text">Center</span>
+                Client <span className="gradient-text">Portal</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Access various resources including newsletters, a secure client portal, financial calculators, and useful internet links.
+                Secure document sharing with ShareFile. Upload tax documents securely.
               </p>
+              <div className="mt-6 text-amber-600 font-medium">
+                <p>
+                  Please contact us at info@taxjm.com if you run into any issues. 
+                  Please do not upload HEIC formatted documents (iPhone photos). Thank you!
+                </p>
+              </div>
             </div>
 
-            <div className="grid md:grid-cols-2 gap-8 mb-16">
-              {resources.map((resource, index) => (
-                <Card key={index} className="glass border-transparent">
-                  <CardHeader>
-                    <CardTitle>{resource.title}</CardTitle>
-                    <CardDescription>{resource.description}</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <Button className="bg-accounting-700 hover:bg-accounting-800 text-white">
-                      {resource.buttonText}
-                    </Button>
-                  </CardContent>
-                </Card>
-              ))}
+            <div className="glass border-transparent rounded-2xl p-12 max-w-3xl mx-auto">
+              <div className="text-center mb-8">
+                <h2 className="text-3xl font-bold mb-4">ShareFile Portal</h2>
+                <p className="text-gray-600">
+                  Our secure client portal allows you to safely share sensitive financial documents with our team.
+                </p>
+              </div>
+
+              <div className="space-y-6">
+                <div className="flex flex-col items-center">
+                  <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg w-full md:w-2/3">
+                    <a href="https://sharefile.com" target="_blank" rel="noreferrer">Sign In to Client Portal</a>
+                  </Button>
+                </div>
+                
+                <div className="bg-blue-50 p-6 rounded-xl">
+                  <h3 className="font-bold text-lg mb-2 text-blue-800">Portal Features</h3>
+                  <ul className="list-disc pl-5 space-y-2 text-gray-700">
+                    <li>Secure 256-bit encryption for all files</li>
+                    <li>Easy upload and download of documents</li>
+                    <li>Mobile-friendly access from any device</li>
+                    <li>Notification when documents have been uploaded</li>
+                    <li>Organized file storage for easy retrieval</li>
+                  </ul>
+                </div>
+              </div>
             </div>
 
             <div className="glass border-transparent rounded-2xl p-12 relative overflow-hidden my-16">
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-accounting-600/5 to-accounting-100/20 z-0"></div>
               <div className="relative z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold mb-6">Need Help Accessing Resources?</h2>
+                  <h2 className="text-3xl font-bold mb-6">Need Assistance?</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    Our team is ready to assist you with accessing any resources or answering any questions you may have.
+                    If you need help accessing or using our client portal, our team is ready to assist you.
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    Contact Support
+                    <Link to="/contact">Contact Our Support Team</Link>
                   </Button>
                 </div>
               </div>

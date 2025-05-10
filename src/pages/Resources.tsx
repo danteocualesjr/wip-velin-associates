@@ -10,40 +10,39 @@ const Resources = () => {
   const resources = [
     {
       title: "Financial Calculators",
-      description: "Use our financial calculators to help plan for your future and make informed financial decisions.",
+      description: "Easy-to-use calculators providing in-depth analysis for various financial scenarios including tax, retirement planning, personal finance, and more.",
       buttonText: "Access Calculators",
       link: "/resources#calculators"
     },
     {
-      title: "Tax Center",
-      description: "Find tax forms, due dates, rates, and helpful resources to assist with your tax preparation.",
-      buttonText: "Visit Tax Center",
-      link: "/tax-center"
+      title: "Glossary of Accounting Terms",
+      description: "A comprehensive glossary to assist clients in understanding accounting terminology.",
+      buttonText: "View Glossary",
+      link: "/resources#glossary"
+    },
+    {
+      title: "News & Insights",
+      description: "Stay informed with our latest articles on tax strategies, retirement planning, and more.",
+      buttonText: "Read Articles",
+      link: "/news-insights"
     },
     {
       title: "Client Portal",
-      description: "Access your financial documents securely through our password-protected portal.",
-      buttonText: "Login to Portal",
+      description: "Secure document sharing with ShareFile. Upload tax documents securely.",
+      buttonText: "Access Portal",
       link: "/client-center"
-    },
-    {
-      title: "Record Retention Guide",
-      description: "Learn how long to keep financial records and documents for personal and business purposes.",
-      buttonText: "View Guide",
-      link: "/record-retention"
-    },
-    {
-      title: "Newsletters",
-      description: "Stay informed with our latest newsletters covering tax updates, financial tips, and more.",
-      buttonText: "Read Newsletters",
-      link: "/newsletter"
-    },
-    {
-      title: "Financial Guides",
-      description: "Access comprehensive guides on life events, business strategies, investments, and tax planning.",
-      buttonText: "View Guides",
-      link: "/financial-guides"
     }
+  ];
+
+  const calculatorTypes = [
+    "Tax Calculators",
+    "Retirement Planning",
+    "Personal Finance",
+    "Savings & Investments",
+    "Business Calculators",
+    "Home Ownership",
+    "Loan Calculators",
+    "Vehicle Financing"
   ];
 
   return (
@@ -61,7 +60,7 @@ const Resources = () => {
               </p>
             </div>
 
-            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-8 mb-16">
               {resources.map((resource, index) => (
                 <Card key={index} className="glass border-transparent">
                   <CardHeader>
@@ -77,16 +76,31 @@ const Resources = () => {
               ))}
             </div>
 
-            <div className="glass border-transparent rounded-2xl p-12 relative overflow-hidden my-16">
+            <div id="calculators" className="mb-16">
+              <h2 className="text-3xl font-bold mb-6">Financial Calculators</h2>
+              <p className="text-gray-600 mb-6">
+                Our easy-to-use financial calculators provide you with in-depth analysis for various financial scenarios.
+              </p>
+
+              <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+                {calculatorTypes.map((type, index) => (
+                  <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow text-center">
+                    <h3 className="text-lg font-bold">{type}</h3>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div id="glossary" className="glass border-transparent rounded-2xl p-12 relative overflow-hidden my-16">
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-accounting-600/5 to-accounting-100/20 z-0"></div>
               <div className="relative z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold mb-6">Need Help With Your Finances?</h2>
+                  <h2 className="text-3xl font-bold mb-6">Glossary of Accounting Terms</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    Our team of experts is ready to assist you with any financial questions or concerns.
+                    Our comprehensive glossary helps you understand accounting terminology used in financial statements and tax documents.
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    <Link to="/contact">Contact Us Today</Link>
+                    <Link to="/resources#glossary">View Glossary</Link>
                   </Button>
                 </div>
               </div>

@@ -26,14 +26,17 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Stemmy, Tidler & Morris, PA
+            James Magno CPA LLC
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
               Home
             </Link>
             <Link to="/services" className="nav-link">
-              Services
+              Practice Areas
+            </Link>
+            <Link to="/about" className="nav-link">
+              About Us
             </Link>
             <Link to="/resources" className="nav-link">
               Resources
@@ -46,7 +49,7 @@ const Navbar = () => {
 
         <div className="hidden md:flex">
           <Button className="bg-accounting-700 hover:bg-accounting-800 text-white">
-            Request Consultation
+            <Link to="/client-center">Client Portal</Link>
           </Button>
         </div>
 
@@ -100,7 +103,14 @@ const Navbar = () => {
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Services
+            Practice Areas
+          </Link>
+          <Link
+            to="/about"
+            className="nav-link py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            About Us
           </Link>
           <Link
             to="/resources"
@@ -120,7 +130,7 @@ const Navbar = () => {
             className="bg-accounting-700 hover:bg-accounting-800 text-white w-full mt-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Request Consultation
+            <Link to="/client-center">Client Portal</Link>
           </Button>
         </nav>
       </div>

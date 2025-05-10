@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions or want to schedule a consultation? Reach out to our team at CPA Associates.
+                Have questions or want to schedule a consultation? Reach out to our team at James Magno CPA LLC.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Office Location</h4>
-                        <p className="text-gray-600">[Firm's Address]</p>
+                        <p className="text-gray-600">51 Monroe Place, Suite 402, Rockville, MD 20850</p>
                       </div>
                     </div>
                     
@@ -48,8 +48,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Phone Numbers</h4>
-                        <p className="text-gray-600">Phone: [Firm's Phone Number]</p>
-                        <p className="text-gray-600">Fax: [Firm's Fax Number]</p>
+                        <p className="text-gray-600">Phone: 240-778-6041</p>
                       </div>
                     </div>
                     
@@ -62,7 +61,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">[Firm's Email Address]</p>
+                        <p className="text-gray-600">info@taxjm.com</p>
                       </div>
                     </div>
                     
@@ -74,8 +73,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Business Hours</h4>
-                        <p className="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
-                        <p className="text-gray-600">Saturday - Sunday: Closed</p>
+                        <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        <p className="text-gray-600">Weekend hours available by appointment</p>
                       </div>
                     </div>
                   </div>
@@ -133,6 +132,26 @@ const Contact = () => {
                       Send Message
                     </Button>
                   </form>
+                </div>
+              </div>
+            </div>
+
+            <div className="mt-16">
+              <h2 className="text-2xl font-bold mb-6">Directions</h2>
+              <div className="glass border-transparent rounded-2xl p-8">
+                <div className="grid md:grid-cols-2 gap-8">
+                  <div>
+                    <h3 className="text-xl font-bold mb-4">From Rockville Metro Station</h3>
+                    <p className="text-gray-600">
+                      We're one block from the Rockville Metro stop on the Red line! Exit subway station heading west. Cross Rockville Pike via footbridge overpass. Our building entrance will be immediately on the left once you have reached the end of the footbridge.
+                    </p>
+                  </div>
+                  <div>
+                    <h3 className="text-xl font-bold mb-4">By Car</h3>
+                    <p className="text-gray-600">
+                      The 51 Monroe Place parking garage is located on Monroe Place, accessible from Monroe Street or from Rockville Pike southbound. We validate parking.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>

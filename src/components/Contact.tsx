@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Office Location</h4>
-                    <p className="text-gray-600">[Firm's Address]</p>
+                    <p className="text-gray-600">51 Monroe Place, Suite 402, Rockville, MD 20850</p>
                   </div>
                 </div>
                 
@@ -43,8 +43,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Phone Numbers</h4>
-                    <p className="text-gray-600">Phone: [Firm's Phone Number]</p>
-                    <p className="text-gray-600">Fax: [Firm's Fax Number]</p>
+                    <p className="text-gray-600">Phone: 240-778-6041</p>
                   </div>
                 </div>
                 
@@ -57,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Email Address</h4>
-                    <p className="text-gray-600">[Firm's Email Address]</p>
+                    <p className="text-gray-600">info@taxjm.com</p>
                   </div>
                 </div>
                 
@@ -69,8 +68,8 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Business Hours</h4>
-                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
-                    <p className="text-gray-600">Saturday - Sunday: Closed</p>
+                    <p className="text-gray-600">Monday - Friday: 9:00 AM - 6:00 PM</p>
+                    <p className="text-gray-600">Weekend hours available by appointment</p>
                   </div>
                 </div>
               </div>
