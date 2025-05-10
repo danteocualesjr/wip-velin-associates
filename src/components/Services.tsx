@@ -78,7 +78,7 @@ const Services = () => {
             Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            Charles Krengel, P.A. offers a comprehensive suite of accounting and tax services for individuals and businesses since 1987.
+            Maryland Tax Service, Inc. offers a comprehensive suite of accounting and tax services for individuals and businesses since 1987.
           </p>
         </div>
 
