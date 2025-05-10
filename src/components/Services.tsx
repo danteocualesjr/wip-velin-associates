@@ -34,9 +34,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Individual Tax Services",
-      description: "Professional tax preparation and planning to minimize your current tax burden with year-round support.",
-      link: "/individual-services"
+      title: "Tax Services",
+      description: "Complete personal and business tax preparation services in Florida; we make tax returns easy for you.",
+      link: "/tax-services"
     },
     {
       icon: (
@@ -44,9 +44,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "IRS Notice Resolution",
-      description: "Expert assistance with tax notices, audits, and resolution services for IRS and state tax issues.",
-      link: "/tax-center"
+      title: "QuickBooks Services",
+      description: "When it comes to QuickBooks, we can do anything and everything. Let's get started.",
+      link: "/quickbooks-services"
     },
     {
       icon: (
@@ -54,9 +54,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       ),
-      title: "Small Business Services",
-      description: "Comprehensive accounting, bookkeeping, and tax preparation services for small to medium-sized businesses.",
-      link: "/business-services"
+      title: "Accounting Services",
+      description: "Comprehensive bookkeeping, payroll, and business consulting services for businesses of all sizes.",
+      link: "/accounting-services"
     },
     {
       icon: (
@@ -64,9 +64,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
         </svg>
       ),
-      title: "Specialized Services",
-      description: "Form 990 preparation for nonprofits, tax services for immigrants and resident aliens, and retirement planning.",
-      link: "/tax-center"
+      title: "Business Consulting",
+      description: "Strategic guidance to help your business succeed with financial planning and decision-making support.",
+      link: "/accounting-services"
     },
   ];
 
@@ -78,7 +78,7 @@ const Services = () => {
             Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            Bill Posner, CPA, PA is a family-owned firm with over 40 years of experience providing personalized accounting services for individuals and businesses.
+            Relate CPA provides end-to-end solutions for all of your accounting and tax needs. We don't just enter some numbers into a spreadsheet and head out the door—we stick around and help you make use of your financial information.
           </p>
         </div>
 

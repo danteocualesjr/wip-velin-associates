@@ -5,32 +5,28 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
-const QuickBooksServices = () => {
+const TaxServices = () => {
   const services = [
     {
-      title: "QuickBooks Setup",
-      description: "Professional setup and configuration of QuickBooks tailored to your specific business needs."
+      title: "Personal Taxes",
+      description: "Expert preparation of individual tax returns to ensure compliance and maximize deductions."
     },
     {
-      title: "QuickBooks Training",
-      description: "Personalized training sessions to help you make the most of your QuickBooks software."
+      title: "Business Taxes",
+      description: "Comprehensive business tax preparation for corporations, partnerships, and LLCs."
     },
     {
-      title: "QuickBooks Online",
-      description: "Implementation and support for QuickBooks Online for easy access from anywhere."
+      title: "1099 Subcontractor Taxes",
+      description: "Specialized tax preparation for independent contractors and self-employed professionals."
     },
     {
-      title: "QuickBooks Point of Sale",
-      description: "Setup and integration of QuickBooks Point of Sale with your retail business."
+      title: "IRS Tax Resolution",
+      description: "Professional assistance with resolving tax issues and disputes with the IRS."
     },
     {
-      title: "QuickBooks for Industries",
-      description: "Specialized QuickBooks solutions for specific industries including construction, retail, and professional services."
-    },
-    {
-      title: "Ongoing QuickBooks Support",
-      description: "Continuous assistance and troubleshooting for all your QuickBooks needs."
-    },
+      title: "Tax Audit Support",
+      description: "Expert representation and support during IRS audits to minimize stress and consequences."
+    }
   ];
 
   return (
@@ -41,10 +37,10 @@ const QuickBooksServices = () => {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                QuickBooks <span className="gradient-text">Services</span>
+                Tax <span className="gradient-text">Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Comprehensive QuickBooks services, including setup, training, and ongoing support for businesses of all sizes.
+                Complete personal and business tax preparation services in Florida; we make tax returns easy for you.
               </p>
             </div>
 
@@ -52,9 +48,9 @@ const QuickBooksServices = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-accounting-600/5 to-accounting-100/20 z-0"></div>
               <div className="relative z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold mb-6">QuickBooks ProAdvisor</h2>
+                  <h2 className="text-3xl font-bold mb-6">Expert Tax Preparation</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    "When it comes to QuickBooks, we can do anything and everything. Let's get started."
+                    "We provide end-to-end solutions for all of your tax needs, ensuring compliance while identifying opportunities to minimize your tax liability."
                   </p>
                 </div>
               </div>
@@ -73,12 +69,12 @@ const QuickBooksServices = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-accounting-600/5 to-accounting-100/20 z-0"></div>
               <div className="relative z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold mb-6">Need QuickBooks Assistance?</h2>
+                  <h2 className="text-3xl font-bold mb-6">Ready for Tax Season?</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    Whether you're just getting started with QuickBooks or need help optimizing your current setup, our team is ready to assist.
+                    Don't let tax preparation stress you out. Contact our team today to ensure your taxes are filed accurately and efficiently.
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    <Link to="/contact">Contact Us for QuickBooks Help</Link>
+                    <Link to="/contact">Schedule a Tax Consultation</Link>
                   </Button>
                 </div>
               </div>
@@ -91,4 +87,4 @@ const QuickBooksServices = () => {
   );
 };
 
-export default QuickBooksServices;
+export default TaxServices;

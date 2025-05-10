@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions about our tax services? Reach out to Bill Posner, CPA, PA.
+                Have questions about our accounting services? Reach out to Relate CPA.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Office Location</h4>
-                        <p className="text-gray-600">22520 Sweetleaf Lane, Gaithersburg, Maryland 20882</p>
+                        <p className="text-gray-600">120 E 4th Ave, Suite C3, Mt Dora, FL 32757</p>
                       </div>
                     </div>
                     
@@ -48,7 +48,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Phone</h4>
-                        <p className="text-gray-600">301-789-9044</p>
+                        <p className="text-gray-600">352-720-0321</p>
                       </div>
                     </div>
                     
@@ -61,7 +61,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">info@billposnercpa.com</p>
+                        <p className="text-gray-600">info@relatecpa.com</p>
                       </div>
                     </div>
                     
@@ -77,6 +77,12 @@ const Contact = () => {
                         <p className="text-gray-600">Weekend hours available by appointment</p>
                       </div>
                     </div>
+
+                    <div className="mt-4 pt-4 border-t border-gray-200">
+                      <p className="text-gray-600">
+                        Our office provides accounting, CPA, and QuickBooks support to businesses and individuals throughout Lake County, Orange County, and Seminole County, Florida and the surrounding greater Orlando area.
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -84,9 +90,6 @@ const Contact = () => {
               <div className="animate-fade-up" style={{ animationDelay: "0.2s" }}>
                 <div className="glass border-transparent rounded-2xl p-8">
                   <h3 className="text-2xl font-bold mb-6">Send us a Message</h3>
-                  <div className="p-4 mb-6 bg-yellow-50 border border-yellow-200 rounded-lg text-yellow-800">
-                    <p>We are full and not accepting new clients. If you would like to join our waiting list, please let us know.</p>
-                  </div>
                   <form className="space-y-6">
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                       <div>
@@ -132,7 +135,7 @@ const Contact = () => {
                       />
                     </div>
                     <Button type="submit" className="w-full bg-accounting-700 hover:bg-accounting-800 text-white">
-                      Join Waiting List
+                      Send Message
                     </Button>
                   </form>
                 </div>

@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Office Location</h4>
-                    <p className="text-gray-600">13301 Woodruff Ct, Germantown, MD 20874</p>
+                    <p className="text-gray-600">120 E 4th Ave, Suite C3, Mt Dora, FL 32757</p>
                   </div>
                 </div>
                 
@@ -43,7 +43,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Phone</h4>
-                    <p className="text-gray-600">301-528-2701</p>
+                    <p className="text-gray-600">352-720-0321</p>
                   </div>
                 </div>
                 
@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Email Address</h4>
-                    <p className="text-gray-600">info@billposnercpa.com</p>
+                    <p className="text-gray-600">info@relatecpa.com</p>
                   </div>
                 </div>
                 
@@ -71,6 +71,12 @@ const Contact = () => {
                     <p className="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
                     <p className="text-gray-600">Weekend hours available by appointment</p>
                   </div>
+                </div>
+
+                <div className="mt-4 pt-4 border-t border-gray-200">
+                  <p className="text-gray-600">
+                    Our office provides accounting, CPA, and QuickBooks support to businesses and individuals throughout Lake County, Orange County, and Seminole County, Florida and the surrounding greater Orlando area.
+                  </p>
                 </div>
               </div>
             </div>

@@ -16,10 +16,10 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">Bill Posner, CPA, PA</span>
+            <span className="gradient-text">Relate CPA</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            A full-service accounting firm established in 1987, serving individuals and businesses in Baltimore, Owings Mills, and surrounding areas.
+            A leading Mount Dora, FL CPA accounting firm providing comprehensive services for individuals and businesses throughout Lake County, Orange County, and Seminole County.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -33,19 +33,19 @@ const Hero = () => {
           
           <div className="mt-12 flex items-center gap-6">
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Tax</p>
-              <p className="text-2xl font-bold">Preparation</p>
-              <p className="text-sm text-gray-600">& Planning</p>
+              <p className="text-sm text-gray-600">Expert</p>
+              <p className="text-2xl font-bold">Tax</p>
+              <p className="text-sm text-gray-600">Preparation</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Individual</p>
-              <p className="text-2xl font-bold">Services</p>
-              <p className="text-sm text-gray-600">Since 1987</p>
-            </div>
-            <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Business</p>
-              <p className="text-2xl font-bold">Consulting</p>
+              <p className="text-sm text-gray-600">QuickBooks</p>
+              <p className="text-2xl font-bold">ProAdvisor</p>
               <p className="text-sm text-gray-600">Services</p>
+            </div>
+            <div className="glass px-4 py-3 rounded-lg">
+              <p className="text-sm text-gray-600">Complete</p>
+              <p className="text-2xl font-bold">Accounting</p>
+              <p className="text-sm text-gray-600">Solutions</p>
             </div>
           </div>
         </div>

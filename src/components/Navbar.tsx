@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Bill Posner, CPA, PA
+            Relate CPA
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
@@ -35,11 +35,14 @@ const Navbar = () => {
             <Link to="/about" className="nav-link">
               About Us
             </Link>
-            <Link to="/services" className="nav-link">
-              Services
+            <Link to="/accounting-services" className="nav-link">
+              Accounting Services
             </Link>
-            <Link to="/tax-tools" className="nav-link">
-              Tax Tools
+            <Link to="/tax-services" className="nav-link">
+              Tax Services
+            </Link>
+            <Link to="/quickbooks-services" className="nav-link">
+              QuickBooks
             </Link>
             <Link to="/contact" className="nav-link">
               Contact
@@ -106,39 +109,25 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to="/services"
+            to="/accounting-services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Services
+            Accounting Services
           </Link>
           <Link
-            to="/tax-tools"
+            to="/tax-services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Tax Tools
+            Tax Services
           </Link>
           <Link
-            to="/news"
+            to="/quickbooks-services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            News
-          </Link>
-          <Link
-            to="/entity-selection"
-            className="nav-link py-2"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Entity Selection
-          </Link>
-          <Link
-            to="/tax-organizer"
-            className="nav-link py-2"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Tax Organizers
+            QuickBooks
           </Link>
           <Link
             to="/contact"

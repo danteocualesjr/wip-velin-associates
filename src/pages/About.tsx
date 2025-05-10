@@ -14,10 +14,10 @@ const About = () => {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                About <span className="gradient-text">Bill Posner, CPA, PA</span>
+                About <span className="gradient-text">Relate CPA</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Learn about our firm's history, mission, and why our clients trust us.
+                Learn about our firm's philosophy, mission, and why our clients trust us.
               </p>
             </div>
 
@@ -34,19 +34,19 @@ const About = () => {
               <div className="animate-fade-up">
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Bill Posner, CPA, PA traces its roots to 2012 when Travis Funkhouser began preparing taxes in his father-in-law's tax preparation service. After earning his CPA license in 2013, he ventured off on his own as a solo practitioner.
+                  Relate CPA is led by John Campion, Jr., a seasoned CPA dedicated to providing personalized accounting services. The firm's philosophy centers on building strong client relationships to deliver tailored financial solutions.
                 </p>
                 <p className="text-gray-600 mb-4">
                   We are committed to maintaining the highest standards of integrity and professionalism in our relationship with clients. We strive to provide quality accounting services with personal attention to each client's unique needs.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  Our clients trust that we will prepare their tax return with all available tax deductions and tax credits... and provide necessary guidance throughout the year.
+                  At Relate CPA, we separate ourselves from other CPA firms by working to create meaningful and lasting relationships with our clients.
                 </p>
                 
                 <div className="glass p-6 rounded-xl mb-6">
                   <h3 className="text-xl font-bold mb-3">Our Mission</h3>
                   <p className="text-gray-600">
-                    "Provide the high quality, professional tax preparation services that our clients need, while also offering affordable and transparent pricing."
+                    "We want to get to know you and your business so we can make you feel more comfortable and better help you to succeed."
                   </p>
                 </div>
 
@@ -60,9 +60,9 @@ const About = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-accounting-600/5 to-accounting-100/20 z-0"></div>
               <div className="relative z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold mb-6">Our Commitment to Accuracy</h2>
+                  <h2 className="text-3xl font-bold mb-6">Complete Accounting Solutions</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    "We pride ourselves on our commitment to integrity and accuracy, ensuring that you receive the maximum refund possible while staying compliant with all regulations."
+                    "We provide end-to-end solutions for all of your accounting and tax needs. We don't just enter some numbers into a spreadsheet and head out the door—we stick around and help you make use of your financial information."
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
                     <Link to="/client-center">Visit Our Client Portal</Link>
