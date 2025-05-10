@@ -78,7 +78,7 @@ const Services = () => {
             Our <span className="gradient-text">Practice Areas</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            James Magno CPA LLC offers a comprehensive suite of services tailored to meet the needs of individuals, businesses, and estate fiduciaries.
+            James Magno, CPA LLC offers a comprehensive suite of services tailored to meet the needs of individuals, businesses, and estate fiduciaries.
           </p>
         </div>
 

@@ -23,7 +23,7 @@ const About = () => {
 
           <div className="animate-fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              About <span className="gradient-text">James Magno CPA LLC</span>
+              About <span className="gradient-text">James Magno, CPA LLC</span>
             </h2>
             <p className="text-gray-600 mb-4">
               James Magno CPA LLC is a full-service accounting firm based in Rockville, Maryland, launched in November 2014 after James spent nearly twenty years with Gold, Leins and Adoff LLP.

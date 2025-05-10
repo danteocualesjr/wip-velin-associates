@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-6 gradient-text">Katz & Co., P.A.</h3>
+            <h3 className="text-2xl font-bold mb-6 gradient-text">James Magno, CPA LLC</h3>
             <p className="text-gray-400 mb-6">
               Providing professional accounting and financial services with over 40 years of experience from our Bethesda, Maryland location.
             </p>
@@ -71,7 +71,7 @@ const Footer = () => {
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© 2025 Katz & Co., P.A. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 James Magno, CPA LLC All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
               <li><Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">Terms</Link></li>
