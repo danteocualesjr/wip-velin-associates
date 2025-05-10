@@ -15,21 +15,21 @@ const About = () => {
                 <div className="h-full w-full bg-[url('https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1074&q=80')] bg-cover bg-center"></div>
               </div>
               <div className="glass absolute right-4 -bottom-8 p-6 rounded-lg max-w-xs shadow-xl">
-                <p className="text-xl font-bold mb-2">Established 2014</p>
-                <p className="text-gray-700">Serving Rockville, Maryland and surrounding areas for over 30 years</p>
+                <p className="text-xl font-bold mb-2">Established 1987</p>
+                <p className="text-gray-700">Serving Baltimore, Owings Mills, and surrounding areas for over 35 years</p>
               </div>
             </div>
           </div>
 
           <div className="animate-fade-up">
             <h2 className="text-3xl md:text-4xl font-bold mb-6">
-              About <span className="gradient-text">Corporate Accounting Services</span>
+              About <span className="gradient-text">Charles Krengel, P.A.</span>
             </h2>
             <p className="text-gray-600 mb-4">
-              Corporate Accounting Services is a full-service accounting firm based in Rockville, Maryland, launched in November 2014 after James spent nearly twenty years with Gold, Leins and Adoff LLP.
+              Charles Krengel, P.A. is a full-service accounting firm based in Owings Mills, Maryland, established in 1987, providing professional services to individuals and businesses.
             </p>
             <p className="text-gray-600 mb-6">
-              "Serving our client's needs is our number one priority." — Corporate Accounting Services
+              "Serving our client's needs is our number one priority." — Charles Krengel, P.A.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mb-8">

@@ -14,10 +14,10 @@ const About = () => {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                About <span className="gradient-text">Corporate Accounting Services</span>
+                About <span className="gradient-text">Charles Krengel, P.A.</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Learn about our firm's history, mission, and the team behind Corporate Accounting Services.
+                Learn about our firm's history, mission, and the team behind Charles Krengel, P.A.
               </p>
             </div>
 
@@ -34,7 +34,7 @@ const About = () => {
               <div className="animate-fade-up">
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Corporate Accounting Services is a full-service accounting firm based in Potomac, Maryland, dedicated to providing professional, personalized services and guidance in a wide range of financial and business needs.
+                  Charles Krengel, P.A. is a full-service accounting firm based in Owings Mills, Maryland, dedicated to providing professional, personalized services and guidance in a wide range of financial and business needs.
                 </p>
                 <p className="text-gray-600 mb-4">
                   We are committed to maintaining the highest standards of integrity and professionalism in our relationship with clients. We strive to provide quality accounting services with personal attention to each client's unique needs.
