@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions or want to schedule a consultation? Reach out to our team at Corporate Accounting Services.
+                Have questions or want to schedule a consultation? Reach out to our team at Charles Krengel, P.A.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Office Location</h4>
-                        <p className="text-gray-600">11409 South Glen Road, Potomac, MD 20854</p>
+                        <p className="text-gray-600">4 Park Center Court, Suite 203, Owings Mills, MD 21117</p>
                       </div>
                     </div>
                     
@@ -48,8 +48,8 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Phone & Fax</h4>
-                        <p className="text-gray-600">Phone: (301) 983-2800</p>
-                        <p className="text-gray-600">Fax: (301) 765-9743</p>
+                        <p className="text-gray-600">Phone: (410) 654-9424 / (800) 892-9631</p>
+                        <p className="text-gray-600">Fax: (410) 654-1277</p>
                       </div>
                     </div>
                     
@@ -62,7 +62,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">silvio@corporateaccounting.biz</p>
+                        <p className="text-gray-600">chuck@krengelcpas.com</p>
                       </div>
                     </div>
                     

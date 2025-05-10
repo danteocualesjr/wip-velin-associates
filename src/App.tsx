@@ -9,12 +9,14 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import ClientCenter from "./pages/ClientCenter";
+import BusinessServices from "./pages/BusinessServices";
+import IndividualServices from "./pages/IndividualServices";
+import NewsInsights from "./pages/NewsInsights";
 import TaxTools from "./pages/TaxTools"; 
 import FinancialGuides from "./pages/FinancialGuides";
-import NewsInsights from "./pages/NewsInsights";
-import Glossary from "./pages/Glossary";
 import Links from "./pages/Links";
 import NotFound from "./pages/NotFound";
+import Services from "./pages/Services";
 
 const queryClient = new QueryClient();
 
@@ -29,10 +31,12 @@ const App = () => (
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/client-center" element={<ClientCenter />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/business-services" element={<BusinessServices />} />
+          <Route path="/individual-services" element={<IndividualServices />} />
           <Route path="/tax-tools" element={<TaxTools />} />
           <Route path="/news" element={<NewsInsights />} />
           <Route path="/financial-guides" element={<FinancialGuides />} />
-          <Route path="/glossary" element={<Glossary />} />
           <Route path="/links" element={<Links />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

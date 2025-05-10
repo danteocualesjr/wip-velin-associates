@@ -34,9 +34,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Tax Preparation & Planning",
-      description: "Comprehensive tax services for individuals, trusts, and businesses with individualized attention.",
-      link: "/services"
+      title: "Tax Preparation",
+      description: "Professional tax preparation services ensuring you maximize deductions and minimize issues with tax authorities.",
+      link: "/tax-preparation"
     },
     {
       icon: (
@@ -44,9 +44,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Estate Planning & Administration",
-      description: "Assistance with gift tax planning, charitable giving strategies, and estate administration.",
-      link: "/services"
+      title: "Individual Services",
+      description: "Personalized tax services ensuring you pay only your fair share of taxes with comprehensive individual planning.",
+      link: "/individual-services"
     },
     {
       icon: (
@@ -54,9 +54,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       ),
-      title: "Business Consulting",
-      description: "Guidance on business entity selection, budgeting, projections, and tax calculations.",
-      link: "/services"
+      title: "Business Services",
+      description: "Comprehensive tax strategies and financial planning to maximize efficiency and reduce your company's tax liability.",
+      link: "/business-services"
     },
     {
       icon: (
@@ -64,9 +64,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
         </svg>
       ),
-      title: "News & Insights",
-      description: "Stay informed with our latest articles on tax strategies, retirement planning, and more.",
-      link: "/news-insights"
+      title: "Business Consulting",
+      description: "Expert consulting services to help small to medium-sized businesses improve their financial operations.",
+      link: "/business-consulting"
     },
   ];
 
@@ -75,10 +75,10 @@ const Services = () => {
       <div className="container-custom">
         <div className="text-center mb-16 max-w-2xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Our <span className="gradient-text">Practice Areas</span>
+            Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            Corporate Accounting Services offers a comprehensive suite of services tailored to meet the needs of individuals, businesses, and estate fiduciaries.
+            Charles Krengel, P.A. offers a comprehensive suite of accounting and tax services for individuals and businesses since 1987.
           </p>
         </div>
 

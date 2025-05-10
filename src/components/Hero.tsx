@@ -16,10 +16,10 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">Corporate Accounting Services</span>
+            <span className="gradient-text">Charles Krengel, P.A.</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            A full-service accounting firm with over 30 years of experience serving individuals, businesses, and estate fiduciaries.
+            A full-service accounting firm established in 1987, serving individuals and businesses in Baltimore, Owings Mills, and surrounding areas.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -38,9 +38,9 @@ const Hero = () => {
               <p className="text-sm text-gray-600">& Planning</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
-              <p className="text-sm text-gray-600">Estate</p>
-              <p className="text-2xl font-bold">Planning</p>
-              <p className="text-sm text-gray-600">& Administration</p>
+              <p className="text-sm text-gray-600">Individual</p>
+              <p className="text-2xl font-bold">Services</p>
+              <p className="text-sm text-gray-600">Since 1987</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">
               <p className="text-sm text-gray-600">Business</p>

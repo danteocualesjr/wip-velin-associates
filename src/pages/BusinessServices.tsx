@@ -8,24 +8,20 @@ import { Link } from "react-router-dom";
 const BusinessServices = () => {
   const services = [
     {
-      title: "Small Business Accounting",
-      description: "Comprehensive bookkeeping and accounting services tailored for small businesses."
+      title: "Accounting and Financial Statements",
+      description: "Comprehensive bookkeeping and financial statement preparation services for your business."
     },
     {
-      title: "Financial Statements",
-      description: "Review and compilation of financial statements to provide insights into your business's financial health."
+      title: "IRS Audits",
+      description: "Professional representation and guidance during IRS audit proceedings for businesses."
     },
     {
-      title: "Part-Time CFO Services",
-      description: "Professional financial leadership on a part-time basis to help guide your business."
+      title: "New Business Formation",
+      description: "Assistance with entity selection and establishment of new business ventures."
     },
     {
-      title: "Cash Flow Management",
-      description: "Strategies to optimize your business's cash flow and financial operations."
-    },
-    {
-      title: "Bank Financing",
-      description: "Assistance with securing loans and managing relationships with financial institutions."
+      title: "QuickBooks Services",
+      description: "Setup, training, and support for QuickBooks accounting software."
     },
     {
       title: "Business Consulting",
@@ -36,8 +32,12 @@ const BusinessServices = () => {
       description: "Strategic planning for seamless leadership transitions and business continuity."
     },
     {
-      title: "New Business Formation",
-      description: "Guidance on selecting the right business entity and establishing new businesses."
+      title: "Retirement Planning",
+      description: "Business retirement plan setup and management for owners and employees."
+    },
+    {
+      title: "Bookkeeping Services",
+      description: "Regular maintenance of financial records and transaction processing."
     }
   ];
 
@@ -51,8 +51,11 @@ const BusinessServices = () => {
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Business <span className="gradient-text">Services</span>
               </h1>
-              <p className="text-xl text-gray-600">
-                Comprehensive business services to help your company thrive and achieve financial success.
+              <p className="text-xl text-gray-600 mb-4">
+                Comprehensive business services to help your company maximize efficiency and reduce tax liability.
+              </p>
+              <p className="text-lg text-gray-600">
+                "We'll help you balance tax planning, tax compliance, and tax strategies to help you maximize efficiency and reduce your company's tax liability."
               </p>
             </div>
 
@@ -78,7 +81,7 @@ const BusinessServices = () => {
                       <Link to="/contact">Contact Us</Link>
                     </Button>
                     <Button variant="outline" className="border-accounting-700 text-accounting-700 hover:bg-accounting-50 px-8 py-6 text-lg">
-                      <Link to="/nonprofit-organizations">Non-Profit Services</Link>
+                      <Link to="/tax-services">Tax Services</Link>
                     </Button>
                   </div>
                 </div>
