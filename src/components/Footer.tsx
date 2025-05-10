@@ -65,7 +65,7 @@ const Footer = () => {
               <li className="text-gray-400">4641 Montgomery Avenue Suite 200</li>
               <li className="text-gray-400">Bethesda, MD 20814</li>
               <li className="text-gray-400">Phone: 301.951.8700</li>
-              <li className="text-gray-400">Email: info@katzcpa.com</li>
+              <li className="text-gray-400">Email: info@taxjm.com</li>
             </ul>
           </div>
         </div>
