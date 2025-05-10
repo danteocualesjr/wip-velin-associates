@@ -26,20 +26,23 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            James Magno, CPA LLC
+            Corporate Accounting Services
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
               Home
             </Link>
-            <Link to="/services" className="nav-link">
-              Practice Areas
-            </Link>
             <Link to="/about" className="nav-link">
               About Us
             </Link>
-            <Link to="/resources" className="nav-link">
-              Resources
+            <Link to="/tax-tools" className="nav-link">
+              Tax Tools
+            </Link>
+            <Link to="/news" className="nav-link">
+              News
+            </Link>
+            <Link to="/financial-guides" className="nav-link">
+              Financial Guides
             </Link>
             <Link to="/contact" className="nav-link">
               Contact
@@ -87,7 +90,7 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div
         className={`md:hidden absolute top-full left-0 right-0 glass shadow-md transition-all duration-300 overflow-hidden ${
-          isMobileMenuOpen ? "max-h-64 py-4" : "max-h-0"
+          isMobileMenuOpen ? "max-h-screen py-4" : "max-h-0"
         }`}
       >
         <nav className="flex flex-col space-y-4 px-6">
@@ -99,13 +102,6 @@ const Navbar = () => {
             Home
           </Link>
           <Link
-            to="/services"
-            className="nav-link py-2"
-            onClick={() => setIsMobileMenuOpen(false)}
-          >
-            Practice Areas
-          </Link>
-          <Link
             to="/about"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
@@ -113,11 +109,39 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to="/resources"
+            to="/tax-tools"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Resources
+            Tax Tools
+          </Link>
+          <Link
+            to="/news"
+            className="nav-link py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            News
+          </Link>
+          <Link
+            to="/financial-guides"
+            className="nav-link py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Financial Guides
+          </Link>
+          <Link
+            to="/glossary"
+            className="nav-link py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Glossary
+          </Link>
+          <Link
+            to="/links"
+            className="nav-link py-2"
+            onClick={() => setIsMobileMenuOpen(false)}
+          >
+            Links
           </Link>
           <Link
             to="/contact"

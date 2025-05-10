@@ -14,10 +14,10 @@ const About = () => {
           <div className="container-custom">
             <div className="max-w-3xl mx-auto text-center mb-16">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                About <span className="gradient-text">James Magno CPA LLC</span>
+                About <span className="gradient-text">Corporate Accounting Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Learn about our firm's history, mission, and the team behind James Magno CPA LLC.
+                Learn about our firm's history, mission, and the team behind Corporate Accounting Services.
               </p>
             </div>
 
@@ -34,23 +34,20 @@ const About = () => {
               <div className="animate-fade-up">
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  James Magno CPA LLC is a full-service accounting firm based in Rockville, Maryland, specializing in estate-related tax preparation and administration.
+                  Corporate Accounting Services is a full-service accounting firm based in Potomac, Maryland, dedicated to providing professional, personalized services and guidance in a wide range of financial and business needs.
                 </p>
                 <p className="text-gray-600 mb-4">
-                  James Magno launched his firm in November 2014 after nearly twenty years with Gold, Leins and Adoff LLP. He has over 30 years of experience in public accounting.
+                  We are committed to maintaining the highest standards of integrity and professionalism in our relationship with clients. We strive to provide quality accounting services with personal attention to each client's unique needs.
                 </p>
                 <p className="text-gray-600 mb-6">
-                  We take pride in our affordable, experienced, and friendly approach to serving our clients' accounting and financial needs.
+                  Our firm is one of the leading firms in the area. By combining our expertise, experience, and the team mentality of our staff, we assure that every client receives the close analysis and attention they deserve.
                 </p>
                 
                 <div className="glass p-6 rounded-xl mb-6">
-                  <h3 className="text-xl font-bold mb-3">Credentials</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• BS in Accounting from the University of Maryland</li>
-                    <li>• Master's of Taxation from the University of Baltimore</li>
-                    <li>• Certificates of completion for Trust Tax I and Trust Tax II from Cannon Trust School</li>
-                    <li>• Member of AICPA, MACPA, MSATP, APCPA, and NCACPA</li>
-                  </ul>
+                  <h3 className="text-xl font-bold mb-3">Our Mission</h3>
+                  <p className="text-gray-600">
+                    To help clients maintain financial viability and success in the present while taking a proactive approach to achieve future goals. This requires open communication to reach an understanding of our clients' needs, thorough research, and sound analysis.
+                  </p>
                 </div>
 
                 <Button className="bg-accounting-700 hover:bg-accounting-800 text-white">
@@ -65,7 +62,7 @@ const About = () => {
                 <div className="max-w-3xl mx-auto text-center">
                   <h2 className="text-3xl font-bold mb-6">Our Commitment to Security</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    "Your data is safe with us. Our client portal protects you with secure document sharing through ShareFile."
+                    "Your data is safe with us. Our client portal protects you with secure document sharing, with communications encrypted using SSL and data stored with additional layers of security."
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
                     <Link to="/client-center">Visit Our Client Portal</Link>

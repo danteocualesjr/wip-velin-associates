@@ -21,7 +21,7 @@ const CTA = () => {
                 Ready for Professional <span className="gradient-text">Accounting Services?</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                "Our firm is one of the leading firms in the area. By combining our expertise, experience, and the energy of our staff, each client receives close personal and professional attention."
+                "Corporate Accounting Services is one of the leading firms in the area. By combining our expertise, experience, and the team mentality of our staff, we assure that every client receives the close analysis and attention they deserve."
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
