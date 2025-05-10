@@ -34,9 +34,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 7h6m0 10v-3m-3 3h.01M9 17h.01M9 14h.01M12 14h.01M15 11h.01M12 11h.01M9 11h.01M7 21h10a2 2 0 002-2V5a2 2 0 00-2-2H7a2 2 0 00-2 2v14a2 2 0 002 2z" />
         </svg>
       ),
-      title: "Tax Preparation",
-      description: "Professional tax preparation services ensuring you maximize deductions and minimize issues with tax authorities.",
-      link: "/tax-preparation"
+      title: "Individual Tax Services",
+      description: "Professional tax preparation and planning to minimize your current tax burden with year-round support.",
+      link: "/individual-services"
     },
     {
       icon: (
@@ -44,9 +44,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "Individual Services",
-      description: "Personalized tax services ensuring you pay only your fair share of taxes with comprehensive individual planning.",
-      link: "/individual-services"
+      title: "IRS Notice Resolution",
+      description: "Expert assistance with tax notices, audits, and resolution services for IRS and state tax issues.",
+      link: "/tax-center"
     },
     {
       icon: (
@@ -54,8 +54,8 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
         </svg>
       ),
-      title: "Business Services",
-      description: "Comprehensive tax strategies and financial planning to maximize efficiency and reduce your company's tax liability.",
+      title: "Small Business Services",
+      description: "Comprehensive accounting, bookkeeping, and tax preparation services for small to medium-sized businesses.",
       link: "/business-services"
     },
     {
@@ -64,9 +64,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
         </svg>
       ),
-      title: "Business Consulting",
-      description: "Expert consulting services to help small to medium-sized businesses improve their financial operations.",
-      link: "/business-consulting"
+      title: "Specialized Services",
+      description: "Form 990 preparation for nonprofits, tax services for immigrants and resident aliens, and retirement planning.",
+      link: "/tax-center"
     },
   ];
 
@@ -78,7 +78,7 @@ const Services = () => {
             Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            Maryland Tax Service, Inc. offers a comprehensive suite of accounting and tax services for individuals and businesses since 1987.
+            Bill Posner, CPA, PA is a family-owned firm with over 40 years of experience providing personalized accounting services for individuals and businesses.
           </p>
         </div>
 

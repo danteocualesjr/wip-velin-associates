@@ -6,48 +6,48 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const Services = () => {
-  const taxServices = [
+  const individualServices = [
     {
-      title: "Individual Tax Returns",
-      description: "Professional tax preparation for individuals to maximize refunds and minimize liability."
-    },
-    {
-      title: "Small Business Taxes",
-      description: "Tax preparation for partnerships, S corporations, and C corporations."
+      title: "Tax Preparation",
+      description: "Professional tax preparation services to navigate complex and ever-changing tax laws."
     },
     {
       title: "Tax Planning",
-      description: "Strategic tax planning to minimize future tax bills and maximize savings."
+      description: "Strategic tax planning to minimize your current and future tax burden."
+    },
+    {
+      title: "Year-Round Support",
+      description: "Access to year-round support for general questions, information needs, and basic tax projections."
     }
   ];
 
-  const businessServices = [
+  const taxResolutionServices = [
     {
-      title: "Entity Selection",
-      description: "Guidance on choosing between Sole Proprietorship, LLC, or S Corporation business structures."
+      title: "IRS Tax Notice Resolution",
+      description: "Expert assistance with resolving IRS tax notices and communications."
     },
     {
-      title: "Self-Employment Planning",
-      description: "Help with quarterly estimated payments and tax obligations for the self-employed."
+      title: "State Tax Notice Resolution",
+      description: "Help with resolving state tax notices and compliance issues."
     },
     {
-      title: "Non-Profit Organizations",
-      description: "Tax preparation for tax-exempt organizations and homeowners associations."
+      title: "Audit Assistance",
+      description: "Professional representation during tax audits and tax court proceedings."
     }
   ];
 
-  const pricingInfo = [
+  const specializedServices = [
     {
-      title: "Transparent Pricing",
-      description: "We post our tax preparation pricing estimates so you know what to expect."
+      title: "Form 990 Preparation",
+      description: "Tax preparation services for not-for-profit organizations."
     },
     {
-      title: "Business Tax Forms",
-      description: "Form 1065 (Partnership): $450+, Form 1120S (S Corporation): $550+, Form 1120 (C Corporation): $500+"
+      title: "International Tax Services",
+      description: "Specialized tax services for immigrants and resident aliens."
     },
     {
-      title: "Non-Profit Forms",
-      description: "Form 990 EZ: $350+, Form 990: $1,100+, Form 1120 H (Homeowners Association): $325+"
+      title: "Retirement Planning",
+      description: "Guidance on retirement planning strategies to optimize tax benefits."
     }
   ];
 
@@ -62,17 +62,17 @@ const Services = () => {
                 Our <span className="gradient-text">Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                We offer a wide array of tax preparation and planning services for individuals and small businesses.
+                Bill Posner, CPA, PA is a family-owned firm based in Germantown, MD, with over 40 years of experience providing personalized accounting services.
               </p>
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">Tax Preparation and Planning</h2>
+              <h2 className="text-3xl font-bold mb-8">Individual Tax Preparation & Tax Planning</h2>
               <p className="text-gray-600 mb-6">
-                Cut your future tax bills with careful tax planning. If you're frustrated by big box tax software, we can ease your way and alleviate confusion.
+                "We recognize that tax laws are complex and constantly changing and that their impact can reach far into the future. We will work to minimize your current tax burden."
               </p>
               <div className="grid md:grid-cols-3 gap-8">
-                {taxServices.map((service, index) => (
+                {individualServices.map((service, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                     <p className="text-gray-600">{service.description}</p>
@@ -82,12 +82,12 @@ const Services = () => {
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">Business Services</h2>
+              <h2 className="text-3xl font-bold mb-8">IRS Tax Notice & Audit Resolution</h2>
               <p className="text-gray-600 mb-6">
-                Comprehensive services for small businesses, including tax preparation, entity selection, and self-employment planning.
+                "Did you receive a tax notice? We can help!" Our team provides expert assistance with tax notices and audit resolution.
               </p>
               <div className="grid md:grid-cols-3 gap-8">
-                {businessServices.map((service, index) => (
+                {taxResolutionServices.map((service, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                     <p className="text-gray-600">{service.description}</p>
@@ -97,15 +97,31 @@ const Services = () => {
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">Pricing Information</h2>
+              <h2 className="text-3xl font-bold mb-8">Small Business Services</h2>
               <p className="text-gray-600 mb-6">
-                Unlike most tax services, we post our Tax Preparation Pricing estimates on our website, so you know what to expect.
+                We offer comprehensive accounting, bookkeeping, and tax preparation services for small to medium-sized businesses.
+              </p>
+              <div className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow mb-6">
+                <h3 className="text-xl font-bold mb-3">Business Services</h3>
+                <p className="text-gray-600">
+                  Small Business Accounting, Bookkeeping & Tax Preparation services tailored to your business needs.
+                </p>
+                <p className="text-gray-600 mt-4 font-semibold">
+                  Note: As of July 1, 2023, we are not accepting new business clients.
+                </p>
+              </div>
+            </div>
+
+            <div className="mb-20">
+              <h2 className="text-3xl font-bold mb-8">Specialized Services</h2>
+              <p className="text-gray-600 mb-6">
+                We provide a range of specialized services to meet diverse client needs.
               </p>
               <div className="grid md:grid-cols-3 gap-8">
-                {pricingInfo.map((info, index) => (
+                {specializedServices.map((service, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
-                    <h3 className="text-xl font-bold mb-3">{info.title}</h3>
-                    <p className="text-gray-600">{info.description}</p>
+                    <h3 className="text-xl font-bold mb-3">{service.title}</h3>
+                    <p className="text-gray-600">{service.description}</p>
                   </div>
                 ))}
               </div>
@@ -115,12 +131,14 @@ const Services = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-br from-accounting-600/5 to-accounting-100/20 z-0"></div>
               <div className="relative z-10">
                 <div className="max-w-3xl mx-auto text-center">
-                  <h2 className="text-3xl font-bold mb-6">Ready to Get Started?</h2>
-                  <p className="text-xl text-gray-600 mb-8">
-                    Contact us today to discuss how we can help you with your tax preparation needs.
-                  </p>
+                  <h2 className="text-3xl font-bold mb-6">Contact Us Today</h2>
+                  <div className="text-xl text-gray-600 mb-8">
+                    <p className="mb-2"><strong>Address:</strong> 13301 Woodruff Ct, Germantown, MD 20874</p>
+                    <p className="mb-2"><strong>Phone:</strong> 301-528-2701</p>
+                    <p className="mb-2"><strong>Email:</strong> Info@BillPosnerCPA.com</p>
+                  </div>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    <Link to="/contact">Contact Us</Link>
+                    <Link to="/contact">Get in Touch</Link>
                   </Button>
                 </div>
               </div>

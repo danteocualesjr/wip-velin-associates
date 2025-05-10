@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Office Location</h4>
-                    <p className="text-gray-600">4 Park Center Court, Suite 203, Owings Mills, MD 21117</p>
+                    <p className="text-gray-600">13301 Woodruff Ct, Germantown, MD 20874</p>
                   </div>
                 </div>
                 
@@ -42,9 +42,8 @@ const Contact = () => {
                     </svg>
                   </div>
                   <div>
-                    <h4 className="font-semibold text-lg">Phone & Fax</h4>
-                    <p className="text-gray-600">Phone: (410) 654-9424 / (800) 892-9631</p>
-                    <p className="text-gray-600">Fax: (410) 654-1277</p>
+                    <h4 className="font-semibold text-lg">Phone</h4>
+                    <p className="text-gray-600">301-528-2701</p>
                   </div>
                 </div>
                 
@@ -57,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Email Address</h4>
-                    <p className="text-gray-600">travis@mdtaxservice.com</p>
+                    <p className="text-gray-600">Info@BillPosnerCPA.com</p>
                   </div>
                 </div>
                 
