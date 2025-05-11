@@ -16,10 +16,10 @@ const Hero = () => {
       <div className="container-custom grid md:grid-cols-2 gap-8 md:gap-12 items-center animate-fade-in">
         <div className="order-2 md:order-1 mt-8 md:mt-0">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6">
-            <span className="gradient-text">Columbia Accounting and Tax Services</span>
+            <span className="gradient-text">Gary Alan</span>
           </h1>
           <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
-            A leading Mount Dora, FL CPA accounting firm providing comprehensive services for individuals and businesses throughout Lake County, Orange County, and Seminole County.
+            A Los Angeles-based accountant known for innovative approach and dedication to client service, providing comprehensive services for individuals and businesses throughout the Los Angeles area.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4">
@@ -39,7 +39,7 @@ const Hero = () => {
             </div>
             <div className="glass px-4 py-3 rounded-lg">
               <p className="text-sm text-gray-600">QuickBooks</p>
-              <p className="text-2xl font-bold">ProAdvisor</p>
+              <p className="text-2xl font-bold">Online</p>
               <p className="text-sm text-gray-600">Services</p>
             </div>
             <div className="glass px-4 py-3 rounded-lg">

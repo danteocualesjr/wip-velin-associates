@@ -21,7 +21,7 @@ const ClientCenter = () => {
               </p>
               <div className="mt-6 text-amber-600 font-medium">
                 <p>
-                  Please contact us at accounting@cataxservices.net if you run into any issues. 
+                  Please contact Gary directly if you run into any issues. 
                   Please do not upload HEIC formatted documents (iPhone photos). Thank you!
                 </p>
               </div>
@@ -31,7 +31,7 @@ const ClientCenter = () => {
               <div className="text-center mb-8">
                 <h2 className="text-3xl font-bold mb-4">Secure Client Portal</h2>
                 <p className="text-gray-600">
-                  Our secure client portal allows you to safely share sensitive financial documents with our team.
+                  Our secure client portal allows you to safely share sensitive financial documents with Gary.
                 </p>
               </div>
 
@@ -62,10 +62,10 @@ const ClientCenter = () => {
                 <div className="max-w-3xl mx-auto text-center">
                   <h2 className="text-3xl font-bold mb-6">Need Assistance?</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    If you need help accessing or using our client portal, our team is ready to assist you.
+                    If you need help accessing or using our client portal, Gary is ready to assist you.
                   </p>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                    <Link to="/contact">Contact Our Support Team</Link>
+                    <Link to="/contact">Contact Gary</Link>
                   </Button>
                 </div>
               </div>

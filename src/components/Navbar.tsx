@@ -26,33 +26,33 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Columbia Accounting & Tax
+            Gary Alan Accounting
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
               Home
             </Link>
             <Link to="/about" className="nav-link">
-              About Us
+              About
             </Link>
             <Link to="/services" className="nav-link">
-              Services
+              All Services
             </Link>
             <Link to="/tax-services" className="nav-link">
-              Tax Services
+              Taxes
             </Link>
-            <Link to="/quickbooks-services" className="nav-link">
-              QuickBooks
+            <Link to="/accounting-services" className="nav-link">
+              Bookkeeping
             </Link>
-            <Link to="/contact" className="nav-link">
-              Contact
+            <Link to="/specialties" className="nav-link">
+              Specialties
             </Link>
           </nav>
         </div>
 
         <div className="hidden md:flex">
           <Button className="bg-accounting-700 hover:bg-accounting-800 text-white">
-            <Link to="/client-center">Client Portal</Link>
+            <Link to="/contact">Contact</Link>
           </Button>
         </div>
 
@@ -106,41 +106,41 @@ const Navbar = () => {
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            About Us
+            About
           </Link>
           <Link
             to="/services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Services
+            All Services
           </Link>
           <Link
             to="/tax-services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Tax Services
+            Taxes
           </Link>
           <Link
-            to="/quickbooks-services"
+            to="/accounting-services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            QuickBooks
+            Bookkeeping
           </Link>
           <Link
-            to="/contact"
+            to="/specialties"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Contact
+            Specialties
           </Link>
           <Button
             className="bg-accounting-700 hover:bg-accounting-800 text-white w-full mt-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            <Link to="/client-center">Client Portal</Link>
+            <Link to="/contact">Contact</Link>
           </Button>
         </nav>
       </div>
