@@ -78,7 +78,7 @@ const Services = () => {
             Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            Columbia Accounting and Tax Services provides end-to-end solutions for all of your accounting and tax needs. We are affordable, experienced, and friendly.
+            Gary Alan Accounting provides end-to-end solutions for all of your accounting and tax needs. We are affordable, experienced, and friendly.
           </p>
         </div>
 
