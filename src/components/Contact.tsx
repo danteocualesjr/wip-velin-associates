@@ -31,7 +31,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Office Location</h4>
-                    <p className="text-gray-600">120 E 4th Ave, Suite C3, Mt Dora, FL 32757</p>
+                    <p className="text-gray-600">8159 Santa Monica Blvd Ste 198/200, West Hollywood, CA 90046</p>
                   </div>
                 </div>
                 
@@ -43,7 +43,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Phone</h4>
-                    <p className="text-gray-600">352-720-0321</p>
+                    <p className="text-gray-600">(323) 902-1000</p>
                   </div>
                 </div>
                 
@@ -56,7 +56,7 @@ const Contact = () => {
                   </div>
                   <div>
                     <h4 className="font-semibold text-lg">Email Address</h4>
-                    <p className="text-gray-600">gary@accountantgaryalan.com</p>
+                    <p className="text-gray-600">dmitriy@losangelescpa.org</p>
                   </div>
                 </div>
                 
@@ -75,7 +75,7 @@ const Contact = () => {
 
                 <div className="mt-4 pt-4 border-t border-gray-200">
                   <p className="text-gray-600">
-                    Our office provides accounting, CPA, and QuickBooks support to businesses and individuals throughout Lake County, Orange County, and Seminole County, Florida and the surrounding greater Orlando area.
+                    Our office provides accounting, CPA, and tax support to businesses and individuals throughout Los Angeles County and the surrounding greater Los Angeles area.
                   </p>
                 </div>
               </div>

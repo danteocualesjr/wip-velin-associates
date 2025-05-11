@@ -13,7 +13,7 @@ const Footer = () => {
       <div className="container-custom py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           <div>
-            <h3 className="text-2xl font-bold mb-6 gradient-text">Gary Alan Accounting</h3>
+            <h3 className="text-2xl font-bold mb-6 gradient-text">Velin & Associates, Inc.</h3>
             <p className="text-gray-400 mb-6">
               A Los Angeles-based accountant known for his innovative approach and dedication to client service, providing comprehensive accounting and tax services.
             </p>
@@ -40,12 +40,12 @@ const Footer = () => {
           </div>
           
           <div>
-            <h4 className="text-lg font-semibold mb-6">Gary Alan</h4>
+            <h4 className="text-lg font-semibold mb-6">Velin & Associates</h4>
             <ul className="space-y-4">
-              <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Gary</Link></li>
-              <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Gary</Link></li>
+              <li><Link to="/about" className="text-gray-400 hover:text-white transition-colors">About Us</Link></li>
+              <li><Link to="/contact" className="text-gray-400 hover:text-white transition-colors">Contact Us</Link></li>
               <li><Link to="/reviews" className="text-gray-400 hover:text-white transition-colors">Client Reviews</Link></li>
-              <li><Link to="/blog" className="text-gray-400 hover:text-white transition-colors">Gary's Blog</Link></li>
+              <li><Link to="/blog" className="text-gray-400 hover:text-white transition-colors">Our Blog</Link></li>
             </ul>
           </div>
           
@@ -63,14 +63,14 @@ const Footer = () => {
             <h4 className="text-lg font-semibold mb-6">Contact</h4>
             <ul className="space-y-4">
               <li className="text-gray-400">Los Angeles, CA</li>
-              <li className="text-gray-400">Phone: (Available upon request)</li>
-              <li className="text-gray-400">Email: gary@accountantgaryalan.com</li>
+              <li className="text-gray-400">Phone: (323) 902-1000</li>
+              <li className="text-gray-400">Email: dmitriy@losangelescpa.org</li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">© 2025 Gary Alan Accounting. All rights reserved.</p>
+          <p className="text-gray-400">© 2025 Velin & Associates, Inc. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
               <li><Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">Terms</Link></li>

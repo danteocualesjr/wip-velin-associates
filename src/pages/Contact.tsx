@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions about our accounting services? Reach out to Columbia Accounting and Tax Services.
+                Have questions about our accounting services? Reach out to Velin & Associates, Inc.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Office Location</h4>
-                        <p className="text-gray-600">5921 Norway Ct, Columbia, MD 21044</p>
+                        <p className="text-gray-600">8159 Santa Monica Blvd Ste 198/200, West Hollywood, CA 90046</p>
                       </div>
                     </div>
                     
@@ -48,7 +48,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Phone</h4>
-                        <p className="text-gray-600">(443) 741-1970</p>
+                        <p className="text-gray-600">(323) 902-1000</p>
                       </div>
                     </div>
                     
@@ -61,7 +61,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">accounting@cataxservices.net</p>
+                        <p className="text-gray-600">dmitriy@losangelescpa.org</p>
                       </div>
                     </div>
 
@@ -74,7 +74,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Fax</h4>
-                        <p className="text-gray-600">(410) 807-8398</p>
+                        <p className="text-gray-600">(310) 943-3725</p>
                       </div>
                     </div>
                     
