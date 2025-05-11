@@ -16,7 +16,7 @@ const AboutPage = () => {
                 About <span className="gradient-text">Our Firm</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Bill Posner, CPA, PA is a full-service accounting firm with over 100 years of combined experience providing expert financial services.
+                Columbia Accounting and Tax Services is a full-service accounting firm with over 100 years of combined experience providing expert financial services.
               </p>
             </div>
             
@@ -24,7 +24,7 @@ const AboutPage = () => {
               <div>
                 <h2 className="text-3xl font-bold mb-6">Our Story</h2>
                 <p className="text-gray-600 mb-4">
-                  Founded with a vision to provide exceptional accounting services to businesses and individuals, Bill Posner, CPA, PA has grown to become a trusted name in the financial industry.
+                  Founded with a vision to provide exceptional accounting services to businesses and individuals, Columbia Accounting and Tax Services has grown to become a trusted name in the financial industry.
                 </p>
                 <p className="text-gray-600 mb-4">
                   Our team of experienced professionals brings together diverse expertise in tax preparation, financial planning, audit support, and payroll services to deliver comprehensive solutions tailored to each client's unique needs.

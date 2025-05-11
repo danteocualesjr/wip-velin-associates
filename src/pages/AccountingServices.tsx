@@ -44,7 +44,7 @@ const AccountingServices = () => {
                 Accounting <span className="gradient-text">Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Professional accounting services tailored to meet the needs of businesses and individuals in Florida.
+                Professional accounting services tailored to meet the needs of businesses and individuals in Maryland.
               </p>
             </div>
 
