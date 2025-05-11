@@ -6,96 +6,122 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const Services = () => {
-  const individualServices = [
-    {
-      title: "Personal Financial Planning",
-      description: "Comprehensive planning to help you meet your personal financial goals."
-    },
-    {
-      title: "Estate Planning",
-      description: "Strategic planning to ensure your assets are distributed according to your wishes."
-    },
-    {
-      title: "Elder Care",
-      description: "Financial services tailored to the needs of older adults and their families."
-    }
-  ];
-
-  const businessServices = [
-    {
-      title: "Small Business Accounting",
-      description: "Comprehensive accounting services to keep your business financially sound."
-    },
-    {
-      title: "Payroll",
-      description: "Complete payroll processing and tax filing services."
-    },
-    {
-      title: "Part-Time CFO Services",
-      description: "Expert financial leadership without the full-time expense."
-    },
+  const financialServices = [
     {
       title: "Audits, Reviews, and Compilations",
-      description: "Financial statement services to meet various reporting requirements."
+      description: "Providing financial reporting on all three levels of assurance."
+    },
+    {
+      title: "Bookkeeping/Write-Up",
+      description: "Assisting with day-to-day bookkeeping tasks."
+    },
+    {
+      title: "Cash Flow & Budgeting Analysis",
+      description: "Forecasting and evaluating financial conditions."
+    },
+    {
+      title: "Financial Forecasts & Projections",
+      description: "Assisting in achieving financial goals through projections and modeling."
+    },
+    {
+      title: "Financial Statements",
+      description: "Preparing statements in accordance with professional standards."
     },
     {
       title: "Forensic Accounting",
-      description: "Detailed financial investigations for legal and business purposes."
-    },
-    {
-      title: "Cash Flow Management",
-      description: "Strategies to improve and maintain positive cash flow for your business."
-    },
-    {
-      title: "Bank Financing",
-      description: "Assistance in securing the best financing options for your business."
-    },
-    {
-      title: "Business Valuation",
-      description: "Professional valuation services for various business needs."
-    },
-    {
-      title: "Strategic Business Planning",
-      description: "Development of comprehensive business plans to guide your company's growth."
-    },
-    {
-      title: "Succession Planning",
-      description: "Planning for the smooth transition of business ownership and management."
-    },
-    {
-      title: "New Business Formation",
-      description: "Guidance on entity selection and formation of new businesses."
-    },
-    {
-      title: "Non-Profit Organizations",
-      description: "Specialized services for non-profit organizations."
-    },
-    {
-      title: "Internal Controls",
-      description: "Development of systems to protect your business assets and ensure compliance."
+      description: "Analyzing financial records for dispute resolutions and fraud investigations."
     }
   ];
 
-  const quickBooksServices = [
+  const specializedServices = [
     {
-      title: "QuickBooks Setup",
-      description: "Professional setup of QuickBooks tailored to your business needs."
+      title: "CPA for Creators",
+      description: "Specialized accounting services for content creators."
     },
     {
-      title: "QuickBooks Training",
-      description: "Personalized training to help you get the most from QuickBooks."
+      title: "CPA for Amazon Business",
+      description: "Tax and accounting solutions for Amazon sellers."
     },
     {
-      title: "QuickAnswers",
-      description: "Quick responses to your QuickBooks questions when you need them."
+      title: "CPA for YouTubers",
+      description: "Financial management for YouTube content creators."
     },
     {
-      title: "QuickTune-up",
-      description: "Review and optimization of your QuickBooks setup for maximum efficiency."
+      title: "CPA for Tiktokers",
+      description: "Tax strategies for TikTok influencers."
     },
     {
-      title: "QuickBooks Purchase",
-      description: "Assistance with purchasing QuickBooks at a discounted rate."
+      title: "CPA for Shopify Store",
+      description: "Accounting solutions for Shopify store owners."
+    },
+    {
+      title: "CPA for Online eCommerce",
+      description: "Financial services for online retailers."
+    },
+    {
+      title: "CPA for Filmmakers and Film Industry",
+      description: "Specialized accounting for film production and industry professionals."
+    },
+    {
+      title: "CPA for Dentists and Dental Businesses",
+      description: "Financial solutions for dental practices."
+    }
+  ];
+
+  const additionalServices = [
+    { title: "Tax Planning & Preparation" },
+    { title: "IRS Representation" },
+    { title: "Payroll Services" },
+    { title: "Sales Tax Services" },
+    { title: "Estate & Trust Tax Preparation" },
+    { title: "Consulting Services" },
+    { title: "Buying & Selling a Business" },
+    { title: "Fraud Prevention & Detection" },
+    { title: "Estate Planning" },
+    { title: "Investment Review" },
+    { title: "Pension & Profit Sharing Plans" },
+    { title: "Accounting Software Selection & Implementation" },
+    { title: "Business Succession Planning" },
+    { title: "Computer Consulting" },
+    { title: "Financial Planning" },
+    { title: "Retirement Planning" },
+    { title: "Management Advisory Services" },
+    { title: "Business Consulting" },
+    { title: "Business Entity Selection" }
+  ];
+
+  const industriesServed = [
+    {
+      title: "Real Estate",
+      description: "Investors, agents, brokers, developers, and property managers."
+    },
+    {
+      title: "Small Business",
+      description: "Assisting with cash flow, growth planning, risk assessment, and bookkeeping."
+    },
+    {
+      title: "Entertainment",
+      description: "Actors, models, agents, directors, writers, and publishers."
+    },
+    {
+      title: "Healthcare",
+      description: "Providing account management and tax preparation for healthcare organizations."
+    },
+    {
+      title: "Entrepreneurs & Influencers",
+      description: "Maximizing deductions and reducing taxes for online entrepreneurs and influencers."
+    },
+    {
+      title: "Education",
+      description: "Tax preparation services for teachers and educational institutions."
+    },
+    {
+      title: "Retail",
+      description: "Serving retailers in various sectors, including apparel, footwear, furniture, and technology."
+    },
+    {
+      title: "Technology",
+      description: "Assisting developers of hardware, software, apps, media, and electronics."
     }
   ];
 
@@ -110,7 +136,7 @@ const Services = () => {
                 Our <span className="gradient-text">Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Columbia Accounting and Tax Services is a full-service accounting firm licensed in Maryland, offering a broad range of services for business owners, executives, and independent professionals.
+                Velin & Associates, Inc. is a full-service accounting firm licensed in California, offering a broad range of services for business owners, executives, and independent professionals.
               </p>
               <p className="text-xl font-semibold mt-4">
                 "We are affordable, experienced, and friendly."
@@ -118,12 +144,9 @@ const Services = () => {
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">Services for Individuals</h2>
-              <p className="text-gray-600 mb-6">
-                Our services for individuals focus on protecting your personal assets and optimizing your financial health.
-              </p>
+              <h2 className="text-3xl font-bold mb-8">Financial Services</h2>
               <div className="grid md:grid-cols-3 gap-8">
-                {individualServices.map((service, index) => (
+                {financialServices.map((service, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                     <p className="text-gray-600">{service.description}</p>
@@ -133,35 +156,35 @@ const Services = () => {
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">Business Services</h2>
-              <p className="text-gray-600 mb-6">
-                Our business services are designed to enhance business efficiency, compliance, and profitability.
-              </p>
+              <h2 className="text-3xl font-bold mb-8">Specialized CPA Services</h2>
               <div className="grid md:grid-cols-3 gap-8">
-                {businessServices.map((service, index) => (
+                {specializedServices.map((service, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
                     <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                     <p className="text-gray-600">{service.description}</p>
-                    {service.title === "Non-Profit Organizations" && (
-                      <Button variant="outline" className="mt-4">
-                        <Link to="/nonprofit-organizations">Learn More</Link>
-                      </Button>
-                    )}
                   </div>
                 ))}
               </div>
             </div>
 
             <div className="mb-20">
-              <h2 className="text-3xl font-bold mb-8">QuickBooks Services</h2>
-              <p className="text-gray-600 mb-6">
-                As certified QuickBooks ProAdvisors, we provide comprehensive setup and training for QuickBooks accounting software.
-              </p>
+              <h2 className="text-3xl font-bold mb-8">Additional Services</h2>
+              <div className="grid md:grid-cols-3 gap-6">
+                {additionalServices.map((service, index) => (
+                  <div key={index} className="p-4">
+                    <h3 className="text-lg font-bold">{service.title}</h3>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="mb-20">
+              <h2 className="text-3xl font-bold mb-8">Industries We Serve</h2>
               <div className="grid md:grid-cols-3 gap-8">
-                {quickBooksServices.map((service, index) => (
+                {industriesServed.map((industry, index) => (
                   <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
-                    <h3 className="text-xl font-bold mb-3">{service.title}</h3>
-                    <p className="text-gray-600">{service.description}</p>
+                    <h3 className="text-xl font-bold mb-3">{industry.title}</h3>
+                    <p className="text-gray-600">{industry.description}</p>
                   </div>
                 ))}
               </div>
@@ -173,9 +196,8 @@ const Services = () => {
                 <div className="max-w-3xl mx-auto text-center">
                   <h2 className="text-3xl font-bold mb-6">Contact Us Today</h2>
                   <div className="text-xl text-gray-600 mb-8">
-                    <p className="mb-2"><strong>Address:</strong> 5921 Norway Ct, Columbia, MD 21044</p>
-                    <p className="mb-2"><strong>Phone:</strong> (443) 741-1970</p>
-                    <p className="mb-2"><strong>Email:</strong> accounting@cataxservices.net</p>
+                    <p className="mb-2"><strong>Address:</strong> 8159 Santa Monica Blvd Ste 198/200, West Hollywood, CA 90046</p>
+                    <p className="mb-2"><strong>Phone:</strong> (323) 902-1000</p>
                   </div>
                   <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
                     <Link to="/contact">Get in Touch</Link>

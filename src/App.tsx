@@ -23,6 +23,7 @@ import Blog from "./pages/Blog";
 import FAQ from "./pages/FAQ";
 import Specialties from "./pages/Specialties";
 import NonprofitOrganizations from "./pages/NonprofitOrganizations";
+import Resources from "./pages/Resources";
 
 const queryClient = new QueryClient();
 
@@ -43,6 +44,7 @@ const App = () => (
           <Route path="/quickbooks-services" element={<QuickBooksServices />} />
           <Route path="/tax-tools" element={<TaxTools />} />
           <Route path="/news" element={<NewsInsights />} />
+          <Route path="/resources" element={<Resources />} />
           <Route path="/financial-guides" element={<FinancialGuides />} />
           <Route path="/links" element={<Links />} />
           <Route path="/reviews" element={<Reviews />} />

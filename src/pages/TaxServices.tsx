@@ -31,8 +31,8 @@ const TaxServices = () => {
 
   const taxResolutionServices = [
     {
-      title: "IRS Audit Representation",
-      description: "Professional representation during IRS audits to protect your rights."
+      title: "IRS Representation",
+      description: "Professional representation before the IRS for all tax matters and disputes."
     },
     {
       title: "Non-Filed Tax Returns",
@@ -53,30 +53,6 @@ const TaxServices = () => {
     {
       title: "IRS Wage Garnishment",
       description: "Help with stopping IRS wage garnishments and protecting your income."
-    },
-    {
-      title: "IRS Seizures",
-      description: "Representation in cases of IRS property seizures to protect your assets."
-    },
-    {
-      title: "IRS Payment Plans",
-      description: "Negotiation of affordable IRS payment plans to resolve tax debt."
-    },
-    {
-      title: "Offer in Compromise",
-      description: "Assistance with submitting an Offer in Compromise to settle tax debt for less."
-    },
-    {
-      title: "Bankruptcy",
-      description: "Guidance on tax implications of bankruptcy filings."
-    },
-    {
-      title: "Innocent Spouse Relief",
-      description: "Help with requesting relief from tax liability for an ex-spouse's actions."
-    },
-    {
-      title: "Accessing IRS Files",
-      description: "Assistance with requesting and reviewing your IRS file for accuracy."
     }
   ];
 
@@ -91,7 +67,7 @@ const TaxServices = () => {
                 Tax <span className="gradient-text">Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Complete personal and business tax preparation services in Maryland; we make tax returns easy for you.
+                Complete personal and business tax preparation services in Los Angeles; we make tax returns easy for you.
               </p>
             </div>
 

@@ -21,11 +21,11 @@ const CTA = () => {
                 Ready for Professional <span className="gradient-text">Accounting Services?</span>
               </h2>
               <p className="text-lg text-gray-600 mb-8">
-                Contact Gary Alan today for affordable, experienced, and friendly accounting services in Los Angeles.
+                Contact Velin & Associates, Inc. today for affordable, experienced, and friendly accounting services in Los Angeles.
               </p>
               <div className="flex flex-col sm:flex-row justify-center gap-4">
                 <Button className="bg-accounting-700 hover:bg-accounting-800 text-white px-8 py-6 text-lg">
-                  <Link to="/contact">Contact Gary Today</Link>
+                  <Link to="/contact">Contact Us Today</Link>
                 </Button>
                 <Button variant="outline" className="border-accounting-700 text-accounting-700 hover:bg-accounting-50 px-8 py-6 text-lg">
                   <Link to="/client-center">Request Services</Link>

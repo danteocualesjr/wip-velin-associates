@@ -35,7 +35,7 @@ const Services = () => {
         </svg>
       ),
       title: "Tax Services",
-      description: "Complete personal and business tax preparation services in Maryland; we make tax returns easy for you.",
+      description: "Complete personal and business tax preparation services; Tax planning and preparation for individuals and businesses.",
       link: "/tax-services"
     },
     {
@@ -44,9 +44,9 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 9V7a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2m2 4h10a2 2 0 002-2v-6a2 2 0 00-2-2H9a2 2 0 00-2 2v6a2 2 0 002 2zm7-5a2 2 0 11-4 0 2 2 0 014 0z" />
         </svg>
       ),
-      title: "QuickBooks Services",
-      description: "As certified QuickBooks ProAdvisors, we provide comprehensive setup and training for QuickBooks accounting software.",
-      link: "/quickbooks-services"
+      title: "Bookkeeping Services",
+      description: "Professional day-to-day bookkeeping tasks and financial management for businesses of all sizes.",
+      link: "/services"
     },
     {
       icon: (
@@ -64,8 +64,8 @@ const Services = () => {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
         </svg>
       ),
-      title: "Individual Services",
-      description: "Financial planning, estate planning, and elder care services designed to protect your personal assets.",
+      title: "Financial Services",
+      description: "Audits, reviews, compilations, cash flow analysis, and financial forecasting to help you achieve your goals.",
       link: "/services"
     },
   ];
@@ -78,7 +78,7 @@ const Services = () => {
             Our <span className="gradient-text">Services</span>
           </h2>
           <p className="text-gray-600 text-lg">
-            Gary Alan Accounting provides end-to-end solutions for all of your accounting and tax needs. We are affordable, experienced, and friendly.
+            Velin & Associates, Inc. provides end-to-end solutions for all of your accounting and tax needs. We are affordable, experienced, and friendly.
           </p>
         </div>
 
