@@ -26,7 +26,7 @@ const Navbar = () => {
       <div className="container-custom flex items-center justify-between">
         <div className="flex items-center">
           <Link to="/" className="text-2xl font-bold gradient-text mr-8">
-            Relate CPA
+            Columbia Accounting & Tax
           </Link>
           <nav className="hidden md:flex space-x-8">
             <Link to="/" className="nav-link nav-link-active">
@@ -35,8 +35,8 @@ const Navbar = () => {
             <Link to="/about" className="nav-link">
               About Us
             </Link>
-            <Link to="/accounting-services" className="nav-link">
-              Accounting Services
+            <Link to="/services" className="nav-link">
+              Services
             </Link>
             <Link to="/tax-services" className="nav-link">
               Tax Services
@@ -109,11 +109,11 @@ const Navbar = () => {
             About Us
           </Link>
           <Link
-            to="/accounting-services"
+            to="/services"
             className="nav-link py-2"
             onClick={() => setIsMobileMenuOpen(false)}
           >
-            Accounting Services
+            Services
           </Link>
           <Link
             to="/tax-services"

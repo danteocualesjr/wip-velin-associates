@@ -6,26 +6,77 @@ import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
 const TaxServices = () => {
-  const services = [
+  const taxPreparationServices = [
     {
-      title: "Personal Taxes",
-      description: "Expert preparation of individual tax returns to ensure compliance and maximize deductions."
+      title: "Tax Preparation",
+      description: "Expert preparation of individual and business tax returns to ensure compliance and maximize deductions."
     },
     {
-      title: "Business Taxes",
-      description: "Comprehensive business tax preparation for corporations, partnerships, and LLCs."
+      title: "Tax Planning",
+      description: "Proactive strategies to maximize your after-tax income and minimize your tax liability."
     },
     {
-      title: "1099 Subcontractor Taxes",
-      description: "Specialized tax preparation for independent contractors and self-employed professionals."
+      title: "Electronic Filing",
+      description: "Fast and secure electronic filing for quicker refunds and immediate confirmation."
     },
     {
-      title: "IRS Tax Resolution",
-      description: "Professional assistance with resolving tax issues and disputes with the IRS."
+      title: "Payroll Withholding Adjustment",
+      description: "Assistance in adjusting payroll withholding to optimize your tax situation."
     },
     {
-      title: "Tax Audit Support",
-      description: "Expert representation and support during IRS audits to minimize stress and consequences."
+      title: "Deduction Identification",
+      description: "Expert identification of potential deductions to reduce your tax liability."
+    }
+  ];
+
+  const taxResolutionServices = [
+    {
+      title: "IRS Audit Representation",
+      description: "Professional representation during IRS audits to protect your rights."
+    },
+    {
+      title: "Non-Filed Tax Returns",
+      description: "Assistance with filing past-due tax returns to get back into compliance."
+    },
+    {
+      title: "Back Taxes Owed",
+      description: "Help with resolving back taxes and developing a payment strategy."
+    },
+    {
+      title: "Payroll Tax Problems",
+      description: "Resolution of payroll tax issues with the IRS and state agencies."
+    },
+    {
+      title: "IRS Liens and Levies",
+      description: "Assistance with removing or subordinating IRS tax liens and stopping levies."
+    },
+    {
+      title: "IRS Wage Garnishment",
+      description: "Help with stopping IRS wage garnishments and protecting your income."
+    },
+    {
+      title: "IRS Seizures",
+      description: "Representation in cases of IRS property seizures to protect your assets."
+    },
+    {
+      title: "IRS Payment Plans",
+      description: "Negotiation of affordable IRS payment plans to resolve tax debt."
+    },
+    {
+      title: "Offer in Compromise",
+      description: "Assistance with submitting an Offer in Compromise to settle tax debt for less."
+    },
+    {
+      title: "Bankruptcy",
+      description: "Guidance on tax implications of bankruptcy filings."
+    },
+    {
+      title: "Innocent Spouse Relief",
+      description: "Help with requesting relief from tax liability for an ex-spouse's actions."
+    },
+    {
+      title: "Accessing IRS Files",
+      description: "Assistance with requesting and reviewing your IRS file for accuracy."
     }
   ];
 
@@ -40,7 +91,7 @@ const TaxServices = () => {
                 Tax <span className="gradient-text">Services</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Complete personal and business tax preparation services in Florida; we make tax returns easy for you.
+                Complete personal and business tax preparation services in Maryland; we make tax returns easy for you.
               </p>
             </div>
 
@@ -50,14 +101,25 @@ const TaxServices = () => {
                 <div className="max-w-3xl mx-auto text-center">
                   <h2 className="text-3xl font-bold mb-6">Expert Tax Preparation</h2>
                   <p className="text-xl text-gray-600 mb-8">
-                    "We provide end-to-end solutions for all of your tax needs, ensuring compliance while identifying opportunities to minimize your tax liability."
+                    "Preparing your own income tax return can be a task that leaves you with more questions than answers. We go beyond tax compliance and proactively recommend tax saving strategies to maximize your after-tax income."
                   </p>
                 </div>
               </div>
             </div>
 
+            <h2 className="text-3xl font-bold mb-6">Tax Preparation Services</h2>
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-              {services.map((service, index) => (
+              {taxPreparationServices.map((service, index) => (
+                <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
+                  <h3 className="text-xl font-bold mb-3">{service.title}</h3>
+                  <p className="text-gray-600">{service.description}</p>
+                </div>
+              ))}
+            </div>
+
+            <h2 className="text-3xl font-bold mb-6">Tax Problem Resolution Services</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+              {taxResolutionServices.map((service, index) => (
                 <div key={index} className="glass border-transparent rounded-xl p-6 hover:shadow-lg transition-shadow">
                   <h3 className="text-xl font-bold mb-3">{service.title}</h3>
                   <p className="text-gray-600">{service.description}</p>

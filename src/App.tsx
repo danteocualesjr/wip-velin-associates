@@ -18,6 +18,7 @@ import FinancialGuides from "./pages/FinancialGuides";
 import Links from "./pages/Links";
 import NotFound from "./pages/NotFound";
 import Services from "./pages/Services";
+import NonprofitOrganizations from "./pages/NonprofitOrganizations";
 
 const queryClient = new QueryClient();
 
@@ -40,6 +41,7 @@ const App = () => (
           <Route path="/news" element={<NewsInsights />} />
           <Route path="/financial-guides" element={<FinancialGuides />} />
           <Route path="/links" element={<Links />} />
+          <Route path="/nonprofit-organizations" element={<NonprofitOrganizations />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

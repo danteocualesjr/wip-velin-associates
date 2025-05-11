@@ -24,8 +24,12 @@ const NonprofitOrganizations = () => {
       description: "Specialized training for accounting personnel and board members."
     },
     {
-      title: "501(c)(3) Application Assistance",
-      description: "Professional assistance with 501(c)(3) application for tax-exempt status."
+      title: "Incorporation Assistance",
+      description: "Assistance with incorporation and obtaining federal EIN for your organization."
+    },
+    {
+      title: "Start-up Documentation",
+      description: "Preparation of initial start-up documentation to establish your non-profit."
     }
   ];
 
@@ -40,7 +44,7 @@ const NonprofitOrganizations = () => {
                 Non-Profit <span className="gradient-text">Organizations</span>
               </h1>
               <p className="text-xl text-gray-600">
-                We help you setup and maintain your non-profit organization's tax-exempt status by handling all the IRS reporting for you.
+                We can help you setup and maintain your non-profit organization's tax-exempt status by handling all the IRS reporting for you.
               </p>
             </div>
 

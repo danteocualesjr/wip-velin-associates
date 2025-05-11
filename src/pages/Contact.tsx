@@ -18,7 +18,7 @@ const Contact = () => {
                 Contact <span className="gradient-text">Us</span>
               </h1>
               <p className="text-xl text-gray-600">
-                Have questions about our accounting services? Reach out to Relate CPA.
+                Have questions about our accounting services? Reach out to Columbia Accounting and Tax Services.
               </p>
             </div>
 
@@ -36,7 +36,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Office Location</h4>
-                        <p className="text-gray-600">120 E 4th Ave, Suite C3, Mt Dora, FL 32757</p>
+                        <p className="text-gray-600">5921 Norway Ct, Columbia, MD 21044</p>
                       </div>
                     </div>
                     
@@ -48,7 +48,7 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Phone</h4>
-                        <p className="text-gray-600">352-720-0321</p>
+                        <p className="text-gray-600">(443) 741-1970</p>
                       </div>
                     </div>
                     
@@ -61,7 +61,20 @@ const Contact = () => {
                       </div>
                       <div>
                         <h4 className="font-semibold text-lg">Email Address</h4>
-                        <p className="text-gray-600">info@relatecpa.com</p>
+                        <p className="text-gray-600">accounting@cataxservices.net</p>
+                      </div>
+                    </div>
+
+                    <div className="flex items-start">
+                      <div className="w-10 h-10 rounded-lg bg-accounting-100 text-accounting-700 flex items-center justify-center mr-4 flex-shrink-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                          <path d="M8 5a1 1 0 100 2h5.586l-1.293 1.293a1 1 0 001.414 1.414l3-3a1 1 0 000-1.414l-3-3a1 1 0 10-1.414 1.414L13.586 5H8z" />
+                          <path d="M12 15a1 1 0 100-2H6.414l1.293-1.293a1 1 0 10-1.414-1.414l-3 3a1 1 0 000 1.414l3 3a1 1 0 001.414-1.414L6.414 15H12z" />
+                        </svg>
+                      </div>
+                      <div>
+                        <h4 className="font-semibold text-lg">Fax</h4>
+                        <p className="text-gray-600">(410) 807-8398</p>
                       </div>
                     </div>
                     
@@ -76,12 +89,6 @@ const Contact = () => {
                         <p className="text-gray-600">Monday - Friday: 9:00 AM - 5:00 PM</p>
                         <p className="text-gray-600">Weekend hours available by appointment</p>
                       </div>
-                    </div>
-
-                    <div className="mt-4 pt-4 border-t border-gray-200">
-                      <p className="text-gray-600">
-                        Our office provides accounting, CPA, and QuickBooks support to businesses and individuals throughout Lake County, Orange County, and Seminole County, Florida and the surrounding greater Orlando area.
-                      </p>
                     </div>
                   </div>
                 </div>
